@@ -9,15 +9,19 @@ import Core
 
 class ProductCellViewModel: ViewModelProtocol {
     struct Input {
+
     }
     struct Output {
+        let name: RelayBinder<String>
     }
 
     let input: Input
     let output: Output
 
-    init() {
+    init(product: Product) {
+        let nameBinder: RelayBinder<String> = .init(product.name)
+
         input = Input()
-        output = Output()
+        output = Output(name: nameBinder)
     }
 }

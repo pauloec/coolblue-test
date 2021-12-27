@@ -9,6 +9,12 @@ import UIKit
 import Core
 
 class ProductCell: UITableViewCell, CellProtocol {
+    private let nameLabel: UILabel = {
+        let label = UILabel()
+        label.adjustsFontSizeToFitWidth = true
+        return label
+    }()
+
     typealias ViewModelProtocol = ProductCellViewModel
     private var viewModel: ViewModelProtocol?
     static var identifier: String = "productCell"
@@ -24,13 +30,20 @@ class ProductCell: UITableViewCell, CellProtocol {
         setupViews()
     }
 
-
     func setupViews() {
+        [nameLabel].forEach {
+            contentView.addSubview($0)
+        }
 
+        nameLabel.anchorSuperview()
     }
 
     func bindViewModel(viewModel: ViewModelProtocol) {
         self.viewModel = viewModel
         let output = viewModel.output
+
+        output.name.bind(listener: { [weak self] name in
+            self?.nameLabel.text = name
+        })
     }
 }

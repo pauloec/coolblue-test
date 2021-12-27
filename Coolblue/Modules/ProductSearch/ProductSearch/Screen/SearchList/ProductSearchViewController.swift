@@ -15,6 +15,7 @@ class ProductSearchViewController: UIViewController, ViewControllerProtocol {
             tableView.rowHeight = UITableView.automaticDimension
             tableView.estimatedRowHeight = 120
             tableView.dataSource = self
+            tableView.register(ProductCell.self, forCellReuseIdentifier: ProductCell.identifier)
         }
     }
 
@@ -51,22 +52,37 @@ class ProductSearchViewController: UIViewController, ViewControllerProtocol {
     }
 
     func bindViewModel() {
-        viewModel.output.error.bind(listener: { [weak self] error in
-            let alert = UIAlertController(title: "Oops",
-                                          message: error,
-                                          preferredStyle: UIAlertController.Style.alert)
-            alert.addAction(UIAlertAction(title: "Okay!", style: .default, handler: { (_) in }))
-            self?.present(alert, animated: true, completion: nil)
+        let output = viewModel.output
+        output.error.bind(listener: { [weak self] error in
+            DispatchQueue.main.async {
+                let alert = UIAlertController(title: "Oops",
+                                              message: error,
+                                              preferredStyle: UIAlertController.Style.alert)
+                alert.addAction(UIAlertAction(title: "Okay!", style: .default, handler: { (_) in }))
+                self?.present(alert, animated: true, completion: nil)
+            }
+        })
+
+        output.products.bind(listener: { [weak self] _ in
+            DispatchQueue.main.async {
+                self?.tableView.reloadData()
+            }
         })
     }
 }
 
 extension ProductSearchViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+        viewModel.output.products.value.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: ProductCell.identifier, for: indexPath) as? ProductCell else {
+            return UITableViewCell()
+        }
+
+        let viewModel = viewModel.output.products.value[indexPath.row]
+        cell.bindViewModel(viewModel: viewModel)
+        return cell
     }
 }
