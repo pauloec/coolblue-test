@@ -7,29 +7,35 @@
 
 import UIKit
 
-enum RequestHTTPMethod: String {
+public enum RequestHTTPMethod: String {
     case get = "GET"
     case post = "POST"
 }
 
-class RequestModel: NSObject {
-    var path: String {
+open class RequestModel {
+    public init() { }
+
+    open var path: String {
         return ""
     }
-    var parameters: [String: Any?] {
-        return [:]
-    }
-    var headers: [String: String] {
-        return [:]
-    }
-    var method: RequestHTTPMethod {
-        return body.isEmpty ? RequestHTTPMethod.get : RequestHTTPMethod.post
-    }
-    var body: [String: Any?] {
+
+    open var parameters: [String: Any?] {
         return [:]
     }
 
-    var isLoggingEnabled: (request: Bool, response: Bool) {
+    open var headers: [String: String] {
+        return [:]
+    }
+
+    open var method: RequestHTTPMethod {
+        return body.isEmpty ? RequestHTTPMethod.get : RequestHTTPMethod.post
+    }
+
+    open var body: [String: Any?] {
+        return [:]
+    }
+
+    open var isLoggingEnabled: (request: Bool, response: Bool) {
         return (request: true, response: true)
     }
 }
