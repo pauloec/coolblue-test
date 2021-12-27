@@ -1,0 +1,29 @@
+{
+  "name": "Network",
+  "version": "0.1.0",
+  "summary": "A short description of Network.",
+  "description": "Network module",
+  "homepage": "http://github/pauloec",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "paulo.ec@hotmail.com": "paulo.ec@hotmail.com"
+  },
+  "source": {
+    "git": "",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "Network/**/*",
+  "dependencies": {
+    "Core": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

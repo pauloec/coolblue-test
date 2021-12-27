@@ -7,57 +7,142 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0275A878502B943E60294E61254A26E5 /* Pods-Coolblue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A376ABFF4B3BCCEFE90BA0EFEF4EAB /* Pods-Coolblue-dummy.m */; };
+		039C0251229724BDF673AFA04C67438A /* CellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746235B5313F79A515408C18BC9C1F36 /* CellProtocol.swift */; };
+		0779D72D6EFCA683D9E5AA023556E832 /* Network-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D02EA1EA7D83BC949EAA075AC56DDBA6 /* Network-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D8E2C8414368F4FAC3688803EC2DE02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		17E2EB5204AB85F51B6924ECC12C5613 /* UIView+NSLayoutAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8336D3B75BFA59A4858065BDCA2E931 /* UIView+NSLayoutAnchor.swift */; };
+		23D4E281BB3741782A70E22B318261CD /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF819FDC0AD8C19C15DEFC5A66086 /* ViewModelProtocol.swift */; };
 		38ED87919577D279783BDB5090143250 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5B3C0167049407BCD182F11C57016BAC /* Pods-Coolblue-CoolblueUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 960A07240A6FA0DBC7E066121F62C32D /* Pods-Coolblue-CoolblueUITests-dummy.m */; };
-		63C4A117AF297145847CB5AA2EE95B60 /* Pods-Coolblue-CoolblueUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41B6CB0D5BA94ECB356DC3E7F5472E63 /* Pods-Coolblue-CoolblueUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8815E8A9C36EABD51BC0E8C95C34B07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CCF0052AB2D7097378A52571AC3FABF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CFCBC479BA60558938A00242D71FCEEF /* Pods-Coolblue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E426ED9CC6D31AF3869862B8F401F94F /* Pods-Coolblue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D69C7818433E8FEFD1BA5745BDB4486F /* Pods-Coolblue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1D0A79DA31D981D7053E429BD86666 /* Pods-Coolblue-dummy.m */; };
-		E0E956F3F5E37CC947A3D24F900EF9EB /* Pods-CoolblueTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 451BDDA37873C667A799FBA30C61DB97 /* Pods-CoolblueTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE8431EFC2F4B2AB9EF262D6C3996BCD /* Pods-CoolblueTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DEDF7146BECAFC73E76BF5E4433D7B /* Pods-CoolblueTests-dummy.m */; };
+		3E46898B1E579E3CF02382B2D179BB31 /* Core-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B467CD83E6BC9EEBD8D6921588E231 /* Core-dummy.m */; };
+		45F672B35564F48A0239F09CD7117614 /* Network-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89725BB142995B63C5EFBD3DDF7FB76E /* Network-dummy.m */; };
+		49236B99DE40E636024033D8B31298C9 /* Pods-Coolblue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A975AF44BABC7C857C8DA3456B347B /* Pods-Coolblue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BB84E0D76BD673CA7C3E81F8387D98C /* Pods-Coolblue-CoolblueUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 495D070B2092D48D796BA0BEE558AC4B /* Pods-Coolblue-CoolblueUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60B817473687DE36D0727DDB9BBA0BEE /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C699CA9ACAC313BD90BD0C2AB5EC296 /* CoordinatorProtocol.swift */; };
+		63A7076F66FDA10D1FC0446E984D9C82 /* Core-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4C67F84D7A9DEBB2389FBCD24315AF /* Core-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8641005920237632C25BD3A4A5B162AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8F137EEEACC2B792D69565150E817E14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9BE1BFB7BE6420317C61BEE66D84ECC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B11F3ED4E7FF4F32B34B39082D0E7152 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8096B1AB74422895FE5B2AFD48367180 /* ErrorModel.swift */; };
+		C24FFBD111BDC07347BFB75DDDCE6157 /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6AA50C1161C384AB3B7AFA3DDB385 /* RequestModel.swift */; };
+		C3062C3688497C58D6CE437958D877C8 /* Pods-Coolblue-CoolblueUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EA62678EB969DE85681D8D290FC4C8 /* Pods-Coolblue-CoolblueUITests-dummy.m */; };
+		C947B298DD781F7A1BA7363789215FD0 /* Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73739DC893331E8D314E49F84A62ABB8 /* Binder.swift */; };
+		E0C6F68F2281EE83FBF8F0379BD8B0D7 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760F9DED2EEE3598E63ADBC2C27760B7 /* LogManager.swift */; };
+		E0E956F3F5E37CC947A3D24F900EF9EB /* Pods-CoolblueTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55401F5F81B8F9BF820EE8D795A6307B /* Pods-CoolblueTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA672375FDBEC03EA9348B74CB6E032B /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A564D3338FD7544F4C4A83B260969B99 /* ServiceManager.swift */; };
+		FC8F38DB3B8B6FF8C969DFF4B98BD55E /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4132E7EE30EFA39265BD3AC265B4B247 /* ResponseModel.swift */; };
+		FD05CD783947440ACEAE3A9BFE01BA1C /* ViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8C4497A4C545E1F14292A76B39D7F /* ViewControllerProtocol.swift */; };
+		FE8431EFC2F4B2AB9EF262D6C3996BCD /* Pods-CoolblueTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8B8680B4CB5E8245DEDC2B308325A1 /* Pods-CoolblueTests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		316CE90B19315A303676C0DED34D6995 /* PBXContainerItemProxy */ = {
+		240CB1145EFE24E9A525FC762D0559B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C08B9A558C127362CF17A251C6F21D59;
 			remoteInfo = "Pods-Coolblue";
 		};
+		332918B5F7428B6262207BD8B0EECABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045EA0CC8B1D13A2E99A2219A6EAFB1A;
+			remoteInfo = Core;
+		};
+		338FAD72A69CDB46FA638F2FF2CDA0FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045EA0CC8B1D13A2E99A2219A6EAFB1A;
+			remoteInfo = Core;
+		};
+		451C7C83A78E05DFA0A9C8F7FE5C3B12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FEDCED8796FFCA46764CDA8CBCC869C;
+			remoteInfo = Network;
+		};
+		716A65CBBEE7531E0670FD4ACB3EAED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FEDCED8796FFCA46764CDA8CBCC869C;
+			remoteInfo = Network;
+		};
+		EB0A15582B862156A00AEDA49829038C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045EA0CC8B1D13A2E99A2219A6EAFB1A;
+			remoteInfo = Core;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10EC157395BF652E431AB5738E16113E /* Pods-Coolblue-CoolblueUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Coolblue-CoolblueUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		12DAFD6C1EC390B51B6A00BB5034138A /* Pods-Coolblue-CoolblueUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coolblue-CoolblueUITests-Info.plist"; sourceTree = "<group>"; };
-		31DEDF7146BECAFC73E76BF5E4433D7B /* Pods-CoolblueTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoolblueTests-dummy.m"; sourceTree = "<group>"; };
-		32FEB71B8FFBAE12AA01BBEF129601BF /* Pods-Coolblue-CoolblueUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coolblue-CoolblueUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		345587F1EA56C06BEE8AF2F770202251 /* Pods-CoolblueTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolblueTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		36BE02536B83CA68E19135B4EA8467CF /* Pods-CoolblueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolblueTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3C8C4286F7E65CB940BD59BB096DEEC0 /* Pods-CoolblueTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoolblueTests.modulemap"; sourceTree = "<group>"; };
-		41B6CB0D5BA94ECB356DC3E7F5472E63 /* Pods-Coolblue-CoolblueUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Coolblue-CoolblueUITests-umbrella.h"; sourceTree = "<group>"; };
-		451BDDA37873C667A799FBA30C61DB97 /* Pods-CoolblueTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoolblueTests-umbrella.h"; sourceTree = "<group>"; };
-		4D6F60E0F999815DA5396C405109CCFC /* Pods-Coolblue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Coolblue.modulemap"; sourceTree = "<group>"; };
-		50FB8220EAA16395C72D09CDBAC5C311 /* Pods-Coolblue-CoolblueUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coolblue-CoolblueUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DB6A0EAD2AF1EB77EA6225B11C0BCA2 /* Pods-Coolblue-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coolblue-acknowledgements.plist"; sourceTree = "<group>"; };
+		177E40F760F51EF9E792207061F4FB05 /* Pods-Coolblue-CoolblueUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coolblue-CoolblueUITests.release.xcconfig"; sourceTree = "<group>"; };
+		23F6F18E72F515892792EA3DBC173CE5 /* Pods-Coolblue-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Coolblue-frameworks.sh"; sourceTree = "<group>"; };
+		2576D8AA286E2A9A03C338B8B741679B /* Core-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Core-Info.plist"; sourceTree = "<group>"; };
+		29A975AF44BABC7C857C8DA3456B347B /* Pods-Coolblue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Coolblue-umbrella.h"; sourceTree = "<group>"; };
+		2EB8ABC3D717F3DF4439A2AEB4E3F85E /* Network.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Network.debug.xcconfig; sourceTree = "<group>"; };
+		356BC7C0F80623FCDDFA7BEA095143D5 /* Core.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Core.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4132E7EE30EFA39265BD3AC265B4B247 /* ResponseModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		415F65EDD7370565ACC9552A877DEAEA /* Pods-Coolblue-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coolblue-Info.plist"; sourceTree = "<group>"; };
+		495D070B2092D48D796BA0BEE558AC4B /* Pods-Coolblue-CoolblueUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Coolblue-CoolblueUITests-umbrella.h"; sourceTree = "<group>"; };
+		4A8B8680B4CB5E8245DEDC2B308325A1 /* Pods-CoolblueTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoolblueTests-dummy.m"; sourceTree = "<group>"; };
+		55401F5F81B8F9BF820EE8D795A6307B /* Pods-CoolblueTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoolblueTests-umbrella.h"; sourceTree = "<group>"; };
+		62F6AA50C1161C384AB3B7AFA3DDB385 /* RequestModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
+		6A3A5940A66B2B6CF1F3FA03C8521290 /* Pods-CoolblueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolblueTests.release.xcconfig"; sourceTree = "<group>"; };
+		719F330D52BE14D5AC85BD675A975807 /* Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Core.release.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7503D12D17021726A5397B5B2F79C2FE /* Pods-Coolblue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coolblue.debug.xcconfig"; sourceTree = "<group>"; };
-		7F0E17520CC6C6BA783BD2B24B3FA5D7 /* Pods-CoolblueTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoolblueTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		960A07240A6FA0DBC7E066121F62C32D /* Pods-Coolblue-CoolblueUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Coolblue-CoolblueUITests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		73739DC893331E8D314E49F84A62ABB8 /* Binder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Binder.swift; sourceTree = "<group>"; };
+		746235B5313F79A515408C18BC9C1F36 /* CellProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CellProtocol.swift; sourceTree = "<group>"; };
+		75B467CD83E6BC9EEBD8D6921588E231 /* Core-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Core-dummy.m"; sourceTree = "<group>"; };
+		760F9DED2EEE3598E63ADBC2C27760B7 /* LogManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
+		78EA62678EB969DE85681D8D290FC4C8 /* Pods-Coolblue-CoolblueUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Coolblue-CoolblueUITests-dummy.m"; sourceTree = "<group>"; };
+		7BEABD4E1EDD2068DC08742C01F58CBF /* Pods-CoolblueTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoolblueTests.modulemap"; sourceTree = "<group>"; };
+		7EF3C98A50415D5285A74C21D46D1A97 /* Pods-Coolblue-CoolblueUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Coolblue-CoolblueUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8096B1AB74422895FE5B2AFD48367180 /* ErrorModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		87E5A31E460DA140FE771E3FC2BBC860 /* Core-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Core-prefix.pch"; sourceTree = "<group>"; };
+		89725BB142995B63C5EFBD3DDF7FB76E /* Network-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Network-dummy.m"; sourceTree = "<group>"; };
+		8A5280C8B3F6AA86C2E080086DCB4D53 /* Pods-CoolblueTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolblueTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A73C18FCE4182B0DABA1B1C51B3AFE8 /* Pods-Coolblue-CoolblueUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Coolblue-CoolblueUITests.modulemap"; sourceTree = "<group>"; };
+		8B141B05701B68C095322490E2BF53CD /* Core.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Core.modulemap; sourceTree = "<group>"; };
+		8C4DF819FDC0AD8C19C15DEFC5A66086 /* ViewModelProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
+		8C699CA9ACAC313BD90BD0C2AB5EC296 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		8E4C67F84D7A9DEBB2389FBCD24315AF /* Core-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Core-umbrella.h"; sourceTree = "<group>"; };
+		90FBB916628EC7D1CE488279994BD6D7 /* Pods-Coolblue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coolblue.release.xcconfig"; sourceTree = "<group>"; };
+		991222BC91244FF7535628F4160B0374 /* Pods-Coolblue-CoolblueUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coolblue-CoolblueUITests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0E39976D1C31E527CAC75E919322AE /* Pods-Coolblue-CoolblueUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Coolblue-CoolblueUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A564D3338FD7544F4C4A83B260969B99 /* ServiceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		A9A8C4497A4C545E1F14292A76B39D7F /* ViewControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewControllerProtocol.swift; sourceTree = "<group>"; };
+		A9FDED1F14A9367A03FD10463FC4C733 /* Pods-Coolblue-CoolblueUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coolblue-CoolblueUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABF1568D5FB0568927174F98FEC11291 /* Network.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Network.release.xcconfig; sourceTree = "<group>"; };
 		AD869E0451F318AE272D264F34392A43 /* Pods-Coolblue */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Coolblue"; path = Pods_Coolblue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B935EC3D88BD3A10B43F6417DBF11497 /* Pods-CoolblueTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolblueTests-Info.plist"; sourceTree = "<group>"; };
-		BC388397451DE35103597A93A922C352 /* Pods-Coolblue-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coolblue-Info.plist"; sourceTree = "<group>"; };
-		C41761F0A9BDD0920FA67D54F678F27E /* Pods-Coolblue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coolblue.release.xcconfig"; sourceTree = "<group>"; };
+		ADC58A86DAC423B7965BFE73EFD8104A /* Network */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Network; path = Network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFBBEA014D53C0B0315233357ED2C8F8 /* Pods-CoolblueTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolblueTests-Info.plist"; sourceTree = "<group>"; };
+		B18C7F40610365A306C3342F3222C627 /* Pods-CoolblueTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoolblueTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2A376ABFF4B3BCCEFE90BA0EFEF4EAB /* Pods-Coolblue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Coolblue-dummy.m"; sourceTree = "<group>"; };
+		B354CD95A1BD0CA7485A9F75FCC4331A /* Core */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Core; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B592ECC8519546D918046B4CB17EAED8 /* Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Core.debug.xcconfig; sourceTree = "<group>"; };
+		B9378F9F22702C6DBC85BAD9BCCFFB46 /* Network-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Network-Info.plist"; sourceTree = "<group>"; };
+		BC16E2D2B8FD00CA80F1DCA86A9F4502 /* Network.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Network.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD432B9E189BA45A19ACA7C1151FA5C6 /* Pods-Coolblue-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Coolblue-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD48BC267AA730952072807350E7E920 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C5852AE500C11F345F6F66814D272FD3 /* Pods-CoolblueTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CoolblueTests"; path = Pods_CoolblueTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C88F4EDABD7E2EC39A97F170EEC9283E /* Pods-Coolblue-CoolblueUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coolblue-CoolblueUITests.release.xcconfig"; sourceTree = "<group>"; };
-		CA1D0A79DA31D981D7053E429BD86666 /* Pods-Coolblue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Coolblue-dummy.m"; sourceTree = "<group>"; };
+		D02EA1EA7D83BC949EAA075AC56DDBA6 /* Network-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Network-umbrella.h"; sourceTree = "<group>"; };
+		D50F6FEC85F52717A9B2725F2E1093EC /* Network-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Network-prefix.pch"; sourceTree = "<group>"; };
+		D668A8B6D37A9AC0742433F08D78E7A8 /* Pods-Coolblue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Coolblue.modulemap"; sourceTree = "<group>"; };
+		D70E753F14B54249A901F9F107707C53 /* Pods-Coolblue-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coolblue-acknowledgements.plist"; sourceTree = "<group>"; };
 		D78F99FD118811C22097219E9ED223A4 /* Pods-Coolblue-CoolblueUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Coolblue-CoolblueUITests"; path = Pods_Coolblue_CoolblueUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E214F50A1DA95CC4966DD7C52F8FAF43 /* Pods-Coolblue-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Coolblue-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E426ED9CC6D31AF3869862B8F401F94F /* Pods-Coolblue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Coolblue-umbrella.h"; sourceTree = "<group>"; };
-		F3A8A813D234B8088549A0E76781AC84 /* Pods-CoolblueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolblueTests.release.xcconfig"; sourceTree = "<group>"; };
-		FAE2B9871A83F9CF10E16B06427A20F9 /* Pods-Coolblue-CoolblueUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Coolblue-CoolblueUITests.modulemap"; sourceTree = "<group>"; };
+		D8336D3B75BFA59A4858065BDCA2E931 /* UIView+NSLayoutAnchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+NSLayoutAnchor.swift"; sourceTree = "<group>"; };
+		DB2041206B3A2541DD44BF7B87ED463A /* Pods-CoolblueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolblueTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFFC62F92013E19C8EC244A803ADDECC /* Pods-Coolblue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coolblue.debug.xcconfig"; sourceTree = "<group>"; };
+		F31124109D2A249C2F42B93F3B1F9B20 /* Network.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Network.modulemap; sourceTree = "<group>"; };
+		FA73371EC40874FBF1BE41173D072F2C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FF4468A4181F9A4963BC0498D9AD254B /* Pods-Coolblue-CoolblueUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coolblue-CoolblueUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,49 +154,123 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1257203D7DA112736DF177FD6FC4E6E5 /* Frameworks */ = {
+		3F45206C12FFDDF62CCFD169FB2D7701 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCF0052AB2D7097378A52571AC3FABF4 /* Foundation.framework in Frameworks */,
+				0D8E2C8414368F4FAC3688803EC2DE02 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		728EDA32C25A148CD4F9BEBA2CDD3293 /* Frameworks */ = {
+		580DE97C03143AB9674D8F952F026A4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8815E8A9C36EABD51BC0E8C95C34B07 /* Foundation.framework in Frameworks */,
+				8641005920237632C25BD3A4A5B162AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A2F059A7F7CE50BB287528280B9935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F137EEEACC2B792D69565150E817E14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F24D733D9C1AA3917F642BBC1A2B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE1BFB7BE6420317C61BEE66D84ECC6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0096A5FDC104285FE2A3F937C331DED3 /* Pods-Coolblue */ = {
+		04C05D71986963402C28E74D5BBD1A01 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4D6F60E0F999815DA5396C405109CCFC /* Pods-Coolblue.modulemap */,
-				E214F50A1DA95CC4966DD7C52F8FAF43 /* Pods-Coolblue-acknowledgements.markdown */,
-				5DB6A0EAD2AF1EB77EA6225B11C0BCA2 /* Pods-Coolblue-acknowledgements.plist */,
-				CA1D0A79DA31D981D7053E429BD86666 /* Pods-Coolblue-dummy.m */,
-				BC388397451DE35103597A93A922C352 /* Pods-Coolblue-Info.plist */,
-				E426ED9CC6D31AF3869862B8F401F94F /* Pods-Coolblue-umbrella.h */,
-				7503D12D17021726A5397B5B2F79C2FE /* Pods-Coolblue.debug.xcconfig */,
-				C41761F0A9BDD0920FA67D54F678F27E /* Pods-Coolblue.release.xcconfig */,
+				FA73371EC40874FBF1BE41173D072F2C /* LICENSE */,
+				BC16E2D2B8FD00CA80F1DCA86A9F4502 /* Network.podspec */,
 			);
-			name = "Pods-Coolblue";
-			path = "Target Support Files/Pods-Coolblue";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		461F01350544B716DB6CEDAE73912635 /* Products */ = {
+		20A8817D36DEA37B9BB9F1D50F2A786E /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				2B6CCF9A82164318346D093FCA328944 /* Extension */,
+				29FAFE8AD99C8A141E5F28E549FF0309 /* Pod */,
+				451F7BBBF7E0F37E5F11ED47065A8B9E /* Protocol */,
+				D206635B271E86C2C401919231559554 /* Support Files */,
+				C6E28F3D9A6B10E36D322D8C7A315577 /* Tool */,
+			);
+			name = Core;
+			path = ../Modules/Core;
+			sourceTree = "<group>";
+		};
+		27494183EE0A05687D22AB17D4F57D20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B354CD95A1BD0CA7485A9F75FCC4331A /* Core */,
+				ADC58A86DAC423B7965BFE73EFD8104A /* Network */,
 				AD869E0451F318AE272D264F34392A43 /* Pods-Coolblue */,
 				D78F99FD118811C22097219E9ED223A4 /* Pods-Coolblue-CoolblueUITests */,
 				C5852AE500C11F345F6F66814D272FD3 /* Pods-CoolblueTests */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		29FAFE8AD99C8A141E5F28E549FF0309 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				356BC7C0F80623FCDDFA7BEA095143D5 /* Core.podspec */,
+				BD48BC267AA730952072807350E7E920 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2B54A854AF917A36744B8A214E50349A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2BD8729D1ABBDCB73286BF27E7A61E57 /* Endpoint */,
+				8C6CCE927A9DA3076149F802361620EA /* Manager */,
+				04C05D71986963402C28E74D5BBD1A01 /* Pod */,
+				AB32D2A8BD053EF7DE12461414011FD0 /* Support Files */,
+			);
+			name = Network;
+			path = ../Modules/Network;
+			sourceTree = "<group>";
+		};
+		2B6CCF9A82164318346D093FCA328944 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D8336D3B75BFA59A4858065BDCA2E931 /* UIView+NSLayoutAnchor.swift */,
+			);
+			name = Extension;
+			path = Core/Extension;
+			sourceTree = "<group>";
+		};
+		2BD8729D1ABBDCB73286BF27E7A61E57 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Endpoint;
+			path = Network/Endpoint;
+			sourceTree = "<group>";
+		};
+		451F7BBBF7E0F37E5F11ED47065A8B9E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				8C699CA9ACAC313BD90BD0C2AB5EC296 /* CoordinatorProtocol.swift */,
+				746235B5313F79A515408C18BC9C1F36 /* CellProtocol.swift */,
+				A9A8C4497A4C545E1F14292A76B39D7F /* ViewControllerProtocol.swift */,
+				8C4DF819FDC0AD8C19C15DEFC5A66086 /* ViewModelProtocol.swift */,
+			);
+			name = Protocol;
+			path = Core/Protocol;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -122,17 +281,89 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A2F1759DBBB85100644D455CAA84B7BC /* Pods-CoolblueTests */ = {
+		81B88629E77BADBB0D2379965EA4B74A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3C8C4286F7E65CB940BD59BB096DEEC0 /* Pods-CoolblueTests.modulemap */,
-				7F0E17520CC6C6BA783BD2B24B3FA5D7 /* Pods-CoolblueTests-acknowledgements.markdown */,
-				345587F1EA56C06BEE8AF2F770202251 /* Pods-CoolblueTests-acknowledgements.plist */,
-				31DEDF7146BECAFC73E76BF5E4433D7B /* Pods-CoolblueTests-dummy.m */,
-				B935EC3D88BD3A10B43F6417DBF11497 /* Pods-CoolblueTests-Info.plist */,
-				451BDDA37873C667A799FBA30C61DB97 /* Pods-CoolblueTests-umbrella.h */,
-				36BE02536B83CA68E19135B4EA8467CF /* Pods-CoolblueTests.debug.xcconfig */,
-				F3A8A813D234B8088549A0E76781AC84 /* Pods-CoolblueTests.release.xcconfig */,
+				8096B1AB74422895FE5B2AFD48367180 /* ErrorModel.swift */,
+				62F6AA50C1161C384AB3B7AFA3DDB385 /* RequestModel.swift */,
+				4132E7EE30EFA39265BD3AC265B4B247 /* ResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8C3D0FD607639AF4BD57B5A4BB464019 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F80C7E5CCAD52E83FA80C1716C68C5A5 /* Pods-Coolblue */,
+				BC0FD17B7331A42632EF5465C5C6E7BB /* Pods-Coolblue-CoolblueUITests */,
+				CB546318AD013702A68293EE2CED0AE6 /* Pods-CoolblueTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8C6CCE927A9DA3076149F802361620EA /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				760F9DED2EEE3598E63ADBC2C27760B7 /* LogManager.swift */,
+				A564D3338FD7544F4C4A83B260969B99 /* ServiceManager.swift */,
+				81B88629E77BADBB0D2379965EA4B74A /* Model */,
+			);
+			name = Manager;
+			path = Network/Manager;
+			sourceTree = "<group>";
+		};
+		AB32D2A8BD053EF7DE12461414011FD0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F31124109D2A249C2F42B93F3B1F9B20 /* Network.modulemap */,
+				89725BB142995B63C5EFBD3DDF7FB76E /* Network-dummy.m */,
+				B9378F9F22702C6DBC85BAD9BCCFFB46 /* Network-Info.plist */,
+				D50F6FEC85F52717A9B2725F2E1093EC /* Network-prefix.pch */,
+				D02EA1EA7D83BC949EAA075AC56DDBA6 /* Network-umbrella.h */,
+				2EB8ABC3D717F3DF4439A2AEB4E3F85E /* Network.debug.xcconfig */,
+				ABF1568D5FB0568927174F98FEC11291 /* Network.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/Network";
+			sourceTree = "<group>";
+		};
+		BC0FD17B7331A42632EF5465C5C6E7BB /* Pods-Coolblue-CoolblueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A73C18FCE4182B0DABA1B1C51B3AFE8 /* Pods-Coolblue-CoolblueUITests.modulemap */,
+				7EF3C98A50415D5285A74C21D46D1A97 /* Pods-Coolblue-CoolblueUITests-acknowledgements.markdown */,
+				FF4468A4181F9A4963BC0498D9AD254B /* Pods-Coolblue-CoolblueUITests-acknowledgements.plist */,
+				78EA62678EB969DE85681D8D290FC4C8 /* Pods-Coolblue-CoolblueUITests-dummy.m */,
+				9E0E39976D1C31E527CAC75E919322AE /* Pods-Coolblue-CoolblueUITests-frameworks.sh */,
+				991222BC91244FF7535628F4160B0374 /* Pods-Coolblue-CoolblueUITests-Info.plist */,
+				495D070B2092D48D796BA0BEE558AC4B /* Pods-Coolblue-CoolblueUITests-umbrella.h */,
+				A9FDED1F14A9367A03FD10463FC4C733 /* Pods-Coolblue-CoolblueUITests.debug.xcconfig */,
+				177E40F760F51EF9E792207061F4FB05 /* Pods-Coolblue-CoolblueUITests.release.xcconfig */,
+			);
+			name = "Pods-Coolblue-CoolblueUITests";
+			path = "Target Support Files/Pods-Coolblue-CoolblueUITests";
+			sourceTree = "<group>";
+		};
+		C6E28F3D9A6B10E36D322D8C7A315577 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				73739DC893331E8D314E49F84A62ABB8 /* Binder.swift */,
+			);
+			name = Tool;
+			path = Core/Tool;
+			sourceTree = "<group>";
+		};
+		CB546318AD013702A68293EE2CED0AE6 /* Pods-CoolblueTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BEABD4E1EDD2068DC08742C01F58CBF /* Pods-CoolblueTests.modulemap */,
+				B18C7F40610365A306C3342F3222C627 /* Pods-CoolblueTests-acknowledgements.markdown */,
+				8A5280C8B3F6AA86C2E080086DCB4D53 /* Pods-CoolblueTests-acknowledgements.plist */,
+				4A8B8680B4CB5E8245DEDC2B308325A1 /* Pods-CoolblueTests-dummy.m */,
+				AFBBEA014D53C0B0315233357ED2C8F8 /* Pods-CoolblueTests-Info.plist */,
+				55401F5F81B8F9BF820EE8D795A6307B /* Pods-CoolblueTests-umbrella.h */,
+				DB2041206B3A2541DD44BF7B87ED463A /* Pods-CoolblueTests.debug.xcconfig */,
+				6A3A5940A66B2B6CF1F3FA03C8521290 /* Pods-CoolblueTests.release.xcconfig */,
 			);
 			name = "Pods-CoolblueTests";
 			path = "Target Support Files/Pods-CoolblueTests";
@@ -142,10 +373,35 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D01862FFA28674682ACCBB95ACB6F2D0 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				461F01350544B716DB6CEDAE73912635 /* Products */,
-				EF6B9B13DE8583BA6A7D8AD74C879E36 /* Targets Support Files */,
+				27494183EE0A05687D22AB17D4F57D20 /* Products */,
+				8C3D0FD607639AF4BD57B5A4BB464019 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D01862FFA28674682ACCBB95ACB6F2D0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20A8817D36DEA37B9BB9F1D50F2A786E /* Core */,
+				2B54A854AF917A36744B8A214E50349A /* Network */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D206635B271E86C2C401919231559554 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B141B05701B68C095322490E2BF53CD /* Core.modulemap */,
+				75B467CD83E6BC9EEBD8D6921588E231 /* Core-dummy.m */,
+				2576D8AA286E2A9A03C338B8B741679B /* Core-Info.plist */,
+				87E5A31E460DA140FE771E3FC2BBC860 /* Core-prefix.pch */,
+				8E4C67F84D7A9DEBB2389FBCD24315AF /* Core-umbrella.h */,
+				B592ECC8519546D918046B4CB17EAED8 /* Core.debug.xcconfig */,
+				719F330D52BE14D5AC85BD675A975807 /* Core.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/Core";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -156,35 +412,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E1544ED78736CE2A1853143988651E8C /* Pods-Coolblue-CoolblueUITests */ = {
+		F80C7E5CCAD52E83FA80C1716C68C5A5 /* Pods-Coolblue */ = {
 			isa = PBXGroup;
 			children = (
-				FAE2B9871A83F9CF10E16B06427A20F9 /* Pods-Coolblue-CoolblueUITests.modulemap */,
-				10EC157395BF652E431AB5738E16113E /* Pods-Coolblue-CoolblueUITests-acknowledgements.markdown */,
-				32FEB71B8FFBAE12AA01BBEF129601BF /* Pods-Coolblue-CoolblueUITests-acknowledgements.plist */,
-				960A07240A6FA0DBC7E066121F62C32D /* Pods-Coolblue-CoolblueUITests-dummy.m */,
-				12DAFD6C1EC390B51B6A00BB5034138A /* Pods-Coolblue-CoolblueUITests-Info.plist */,
-				41B6CB0D5BA94ECB356DC3E7F5472E63 /* Pods-Coolblue-CoolblueUITests-umbrella.h */,
-				50FB8220EAA16395C72D09CDBAC5C311 /* Pods-Coolblue-CoolblueUITests.debug.xcconfig */,
-				C88F4EDABD7E2EC39A97F170EEC9283E /* Pods-Coolblue-CoolblueUITests.release.xcconfig */,
+				D668A8B6D37A9AC0742433F08D78E7A8 /* Pods-Coolblue.modulemap */,
+				BD432B9E189BA45A19ACA7C1151FA5C6 /* Pods-Coolblue-acknowledgements.markdown */,
+				D70E753F14B54249A901F9F107707C53 /* Pods-Coolblue-acknowledgements.plist */,
+				B2A376ABFF4B3BCCEFE90BA0EFEF4EAB /* Pods-Coolblue-dummy.m */,
+				23F6F18E72F515892792EA3DBC173CE5 /* Pods-Coolblue-frameworks.sh */,
+				415F65EDD7370565ACC9552A877DEAEA /* Pods-Coolblue-Info.plist */,
+				29A975AF44BABC7C857C8DA3456B347B /* Pods-Coolblue-umbrella.h */,
+				EFFC62F92013E19C8EC244A803ADDECC /* Pods-Coolblue.debug.xcconfig */,
+				90FBB916628EC7D1CE488279994BD6D7 /* Pods-Coolblue.release.xcconfig */,
 			);
-			name = "Pods-Coolblue-CoolblueUITests";
-			path = "Target Support Files/Pods-Coolblue-CoolblueUITests";
-			sourceTree = "<group>";
-		};
-		EF6B9B13DE8583BA6A7D8AD74C879E36 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0096A5FDC104285FE2A3F937C331DED3 /* Pods-Coolblue */,
-				E1544ED78736CE2A1853143988651E8C /* Pods-Coolblue-CoolblueUITests */,
-				A2F1759DBBB85100644D455CAA84B7BC /* Pods-CoolblueTests */,
-			);
-			name = "Targets Support Files";
+			name = "Pods-Coolblue";
+			path = "Target Support Files/Pods-Coolblue";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0628E11CB8F07FE7F4A108646C5B4A95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49236B99DE40E636024033D8B31298C9 /* Pods-Coolblue-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC44E5AD7BABD7286C03AA7F3F8F9B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0779D72D6EFCA683D9E5AA023556E832 /* Network-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48D56DA1B22912C50030667D2F1AF9CE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -193,25 +456,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD60C3FD047474715FD05C060168D0F2 /* Headers */ = {
+		793FAEE433CA7B5628FCB03918130396 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFCBC479BA60558938A00242D71FCEEF /* Pods-Coolblue-umbrella.h in Headers */,
+				63A7076F66FDA10D1FC0446E984D9C82 /* Core-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC2B6FA9DCD1650E01829B931EF43380 /* Headers */ = {
+		B47331BFE8A78B1354B61CFBCECA1AA6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63C4A117AF297145847CB5AA2EE95B60 /* Pods-Coolblue-CoolblueUITests-umbrella.h in Headers */,
+				4BB84E0D76BD673CA7C3E81F8387D98C /* Pods-Coolblue-CoolblueUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		045EA0CC8B1D13A2E99A2219A6EAFB1A /* Core */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ADE88666931474FFF06D05AF56DB0A9 /* Build configuration list for PBXNativeTarget "Core" */;
+			buildPhases = (
+				793FAEE433CA7B5628FCB03918130396 /* Headers */,
+				30D6C3C913996ACEA0F6F946406C71F7 /* Sources */,
+				88A2F059A7F7CE50BB287528280B9935 /* Frameworks */,
+				64C239B466437B509ECB872AA7A8FBDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Core;
+			productName = Core;
+			productReference = B354CD95A1BD0CA7485A9F75FCC4331A /* Core */;
+			productType = "com.apple.product-type.framework";
+		};
+		2FEDCED8796FFCA46764CDA8CBCC869C /* Network */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A2258151A79DEC9FF0F5BD901F85F0 /* Build configuration list for PBXNativeTarget "Network" */;
+			buildPhases = (
+				3DC44E5AD7BABD7286C03AA7F3F8F9B5 /* Headers */,
+				E9D1E43333C23EA4B069F1B075FE73E5 /* Sources */,
+				3F45206C12FFDDF62CCFD169FB2D7701 /* Frameworks */,
+				2A69E8A038A0183F5E0E25B9F2DF511D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				681BB0E52CC1F7F152A5CE46F29667E8 /* PBXTargetDependency */,
+			);
+			name = Network;
+			productName = Network;
+			productReference = ADC58A86DAC423B7965BFE73EFD8104A /* Network */;
+			productType = "com.apple.product-type.framework";
+		};
 		81D5188A895C9588F62F1B8961D00C02 /* Pods-CoolblueTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 873D90C837B5670DA2EB4FDC71E5E895 /* Build configuration list for PBXNativeTarget "Pods-CoolblueTests" */;
@@ -224,7 +524,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				77EC05CA2E7CCF15D19249DC82164F69 /* PBXTargetDependency */,
+				DB4343DC3F93A4CD6AA91BF2159210A2 /* PBXTargetDependency */,
 			);
 			name = "Pods-CoolblueTests";
 			productName = Pods_CoolblueTests;
@@ -233,16 +533,18 @@
 		};
 		C08B9A558C127362CF17A251C6F21D59 /* Pods-Coolblue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47AA0A7E2F5155BE2BDC5FD84301D540 /* Build configuration list for PBXNativeTarget "Pods-Coolblue" */;
+			buildConfigurationList = 9116A7CF9930A4E48D91C118A8B462AB /* Build configuration list for PBXNativeTarget "Pods-Coolblue" */;
 			buildPhases = (
-				AD60C3FD047474715FD05C060168D0F2 /* Headers */,
-				A5F947F379B342CEB62C391631334D97 /* Sources */,
-				728EDA32C25A148CD4F9BEBA2CDD3293 /* Frameworks */,
-				E4D959EA5FF6B6E0C7C711777544D194 /* Resources */,
+				0628E11CB8F07FE7F4A108646C5B4A95 /* Headers */,
+				1EE3C60D3BFEF69EE4298AA2AFDC8DB5 /* Sources */,
+				F3F24D733D9C1AA3917F642BBC1A2B7C /* Frameworks */,
+				9810337FE2604D8C7A12902DEFDA0D51 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EEC0B740C29F29D12C85465278C56D7C /* PBXTargetDependency */,
+				C1035331E89543582BBDCE1E8C54051B /* PBXTargetDependency */,
 			);
 			name = "Pods-Coolblue";
 			productName = Pods_Coolblue;
@@ -251,16 +553,18 @@
 		};
 		F1C0D7A4B0412EDC2E3A40CE2A1CDF54 /* Pods-Coolblue-CoolblueUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1F18CEDD53346BEF1CF3E9FB86FB267 /* Build configuration list for PBXNativeTarget "Pods-Coolblue-CoolblueUITests" */;
+			buildConfigurationList = 4EBE5249E663F930E7649B30ED1E3D3A /* Build configuration list for PBXNativeTarget "Pods-Coolblue-CoolblueUITests" */;
 			buildPhases = (
-				DC2B6FA9DCD1650E01829B931EF43380 /* Headers */,
-				56DFCCA634287F3D4AB223548E23A20D /* Sources */,
-				1257203D7DA112736DF177FD6FC4E6E5 /* Frameworks */,
-				E946A111825EF327AA24CB2FFAD84583 /* Resources */,
+				B47331BFE8A78B1354B61CFBCECA1AA6 /* Headers */,
+				BEE26E6C59CC17E23B11752D738BA7A4 /* Sources */,
+				580DE97C03143AB9674D8F952F026A4C /* Frameworks */,
+				C4AEE03B1C0757B74E5C16B73ACC7A3A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				002D7984D455DF358BC15E31A03C39A0 /* PBXTargetDependency */,
+				EE75C64448D232956C6C5E81AE13E890 /* PBXTargetDependency */,
 			);
 			name = "Pods-Coolblue-CoolblueUITests";
 			productName = Pods_Coolblue_CoolblueUITests;
@@ -285,10 +589,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 461F01350544B716DB6CEDAE73912635 /* Products */;
+			productRefGroup = 27494183EE0A05687D22AB17D4F57D20 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				045EA0CC8B1D13A2E99A2219A6EAFB1A /* Core */,
+				2FEDCED8796FFCA46764CDA8CBCC869C /* Network */,
 				C08B9A558C127362CF17A251C6F21D59 /* Pods-Coolblue */,
 				F1C0D7A4B0412EDC2E3A40CE2A1CDF54 /* Pods-Coolblue-CoolblueUITests */,
 				81D5188A895C9588F62F1B8961D00C02 /* Pods-CoolblueTests */,
@@ -297,6 +603,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2A69E8A038A0183F5E0E25B9F2DF511D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B5AB1A20A6C963532945E4979FA58EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -304,14 +617,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4D959EA5FF6B6E0C7C711777544D194 /* Resources */ = {
+		64C239B466437B509ECB872AA7A8FBDE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E946A111825EF327AA24CB2FFAD84583 /* Resources */ = {
+		9810337FE2604D8C7A12902DEFDA0D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AEE03B1C0757B74E5C16B73ACC7A3A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,19 +641,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		56DFCCA634287F3D4AB223548E23A20D /* Sources */ = {
+		1EE3C60D3BFEF69EE4298AA2AFDC8DB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B3C0167049407BCD182F11C57016BAC /* Pods-Coolblue-CoolblueUITests-dummy.m in Sources */,
+				0275A878502B943E60294E61254A26E5 /* Pods-Coolblue-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5F947F379B342CEB62C391631334D97 /* Sources */ = {
+		30D6C3C913996ACEA0F6F946406C71F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D69C7818433E8FEFD1BA5745BDB4486F /* Pods-Coolblue-dummy.m in Sources */,
+				C947B298DD781F7A1BA7363789215FD0 /* Binder.swift in Sources */,
+				039C0251229724BDF673AFA04C67438A /* CellProtocol.swift in Sources */,
+				60B817473687DE36D0727DDB9BBA0BEE /* CoordinatorProtocol.swift in Sources */,
+				3E46898B1E579E3CF02382B2D179BB31 /* Core-dummy.m in Sources */,
+				17E2EB5204AB85F51B6924ECC12C5613 /* UIView+NSLayoutAnchor.swift in Sources */,
+				FD05CD783947440ACEAE3A9BFE01BA1C /* ViewControllerProtocol.swift in Sources */,
+				23D4E281BB3741782A70E22B318261CD /* ViewModelProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE26E6C59CC17E23B11752D738BA7A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3062C3688497C58D6CE437958D877C8 /* Pods-Coolblue-CoolblueUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,21 +679,64 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9D1E43333C23EA4B069F1B075FE73E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11F3ED4E7FF4F32B34B39082D0E7152 /* ErrorModel.swift in Sources */,
+				E0C6F68F2281EE83FBF8F0379BD8B0D7 /* LogManager.swift in Sources */,
+				45F672B35564F48A0239F09CD7117614 /* Network-dummy.m in Sources */,
+				C24FFBD111BDC07347BFB75DDDCE6157 /* RequestModel.swift in Sources */,
+				FC8F38DB3B8B6FF8C969DFF4B98BD55E /* ResponseModel.swift in Sources */,
+				EA672375FDBEC03EA9348B74CB6E032B /* ServiceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		77EC05CA2E7CCF15D19249DC82164F69 /* PBXTargetDependency */ = {
+		002D7984D455DF358BC15E31A03C39A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Core;
+			target = 045EA0CC8B1D13A2E99A2219A6EAFB1A /* Core */;
+			targetProxy = 332918B5F7428B6262207BD8B0EECABF /* PBXContainerItemProxy */;
+		};
+		681BB0E52CC1F7F152A5CE46F29667E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Core;
+			target = 045EA0CC8B1D13A2E99A2219A6EAFB1A /* Core */;
+			targetProxy = 338FAD72A69CDB46FA638F2FF2CDA0FF /* PBXContainerItemProxy */;
+		};
+		C1035331E89543582BBDCE1E8C54051B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Network;
+			target = 2FEDCED8796FFCA46764CDA8CBCC869C /* Network */;
+			targetProxy = 451C7C83A78E05DFA0A9C8F7FE5C3B12 /* PBXContainerItemProxy */;
+		};
+		DB4343DC3F93A4CD6AA91BF2159210A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Coolblue";
 			target = C08B9A558C127362CF17A251C6F21D59 /* Pods-Coolblue */;
-			targetProxy = 316CE90B19315A303676C0DED34D6995 /* PBXContainerItemProxy */;
+			targetProxy = 240CB1145EFE24E9A525FC762D0559B3 /* PBXContainerItemProxy */;
+		};
+		EE75C64448D232956C6C5E81AE13E890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Network;
+			target = 2FEDCED8796FFCA46764CDA8CBCC869C /* Network */;
+			targetProxy = 716A65CBBEE7531E0670FD4ACB3EAED0 /* PBXContainerItemProxy */;
+		};
+		EEC0B740C29F29D12C85465278C56D7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Core;
+			target = 045EA0CC8B1D13A2E99A2219A6EAFB1A /* Core */;
+			targetProxy = EB0A15582B862156A00AEDA49829038C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2C76BA78E176849D429D2940E586C81B /* Release */ = {
+		124A7CF89E8DD17576C79DF8AB8EBC50 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C88F4EDABD7E2EC39A97F170EEC9283E /* Pods-Coolblue-CoolblueUITests.release.xcconfig */;
+			baseConfigurationReference = 177E40F760F51EF9E792207061F4FB05 /* Pods-Coolblue-CoolblueUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -388,6 +765,78 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2ACF24A353B8BE198473934C88E2500E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABF1568D5FB0568927174F98FEC11291 /* Network.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Network/Network-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Network/Network-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Network/Network.modulemap";
+				PRODUCT_MODULE_NAME = Network;
+				PRODUCT_NAME = Network;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		406127025DF88589769A0F978A3392D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 719F330D52BE14D5AC85BD675A975807 /* Core.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Core/Core-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Core/Core-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Core/Core.modulemap";
+				PRODUCT_MODULE_NAME = Core;
+				PRODUCT_NAME = Core;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -461,9 +910,47 @@
 			};
 			name = Debug;
 		};
+		45E2D78C791A8E8A2932540421D6D094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90FBB916628EC7D1CE488279994BD6D7 /* Pods-Coolblue.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Coolblue/Pods-Coolblue-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Coolblue/Pods-Coolblue.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4871EAF594B07FFCE1F065DEBF6CCDD7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3A8A813D234B8088549A0E76781AC84 /* Pods-CoolblueTests.release.xcconfig */;
+			baseConfigurationReference = 6A3A5940A66B2B6CF1F3FA03C8521290 /* Pods-CoolblueTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -499,9 +986,9 @@
 			};
 			name = Release;
 		};
-		634DBD8695DF082A8F6D68112F00FB99 /* Debug */ = {
+		5F4FE1E994978FBDC79A43F7C65F7BCF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7503D12D17021726A5397B5B2F79C2FE /* Pods-Coolblue.debug.xcconfig */;
+			baseConfigurationReference = EFFC62F92013E19C8EC244A803ADDECC /* Pods-Coolblue.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -523,43 +1010,6 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Coolblue/Pods-Coolblue.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7A5FA63497E2CA65C881589602F83644 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50FB8220EAA16395C72D09CDBAC5C311 /* Pods-Coolblue-CoolblueUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Coolblue-CoolblueUITests/Pods-Coolblue-CoolblueUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Coolblue-CoolblueUITests/Pods-Coolblue-CoolblueUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -635,11 +1085,10 @@
 			};
 			name = Release;
 		};
-		D3F1BA6BC3AD033CA71C7FDE55435B0E /* Release */ = {
+		D8AC6BA1F19E0441646B48004E78A733 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C41761F0A9BDD0920FA67D54F678F27E /* Pods-Coolblue.release.xcconfig */;
+			baseConfigurationReference = B592ECC8519546D918046B4CB17EAED8 /* Core.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -649,33 +1098,31 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Coolblue/Pods-Coolblue-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Core/Core-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Core/Core-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Coolblue/Pods-Coolblue.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/Core/Core.modulemap";
+				PRODUCT_MODULE_NAME = Core;
+				PRODUCT_NAME = Core;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		DEFD9C1835B08ED67EEBCA3EDB44A43C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36BE02536B83CA68E19135B4EA8467CF /* Pods-CoolblueTests.debug.xcconfig */;
+			baseConfigurationReference = DB2041206B3A2541DD44BF7B87ED463A /* Pods-CoolblueTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -710,23 +1157,104 @@
 			};
 			name = Debug;
 		};
+		DF1A7B45E23E89C46845D5E5779969AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9FDED1F14A9367A03FD10463FC4C733 /* Pods-Coolblue-CoolblueUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Coolblue-CoolblueUITests/Pods-Coolblue-CoolblueUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Coolblue-CoolblueUITests/Pods-Coolblue-CoolblueUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7D892B042234BFA64758AD46CF7ECD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EB8ABC3D717F3DF4439A2AEB4E3F85E /* Network.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Network/Network-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Network/Network-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Network/Network.modulemap";
+				PRODUCT_MODULE_NAME = Network;
+				PRODUCT_NAME = Network;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		47AA0A7E2F5155BE2BDC5FD84301D540 /* Build configuration list for PBXNativeTarget "Pods-Coolblue" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				634DBD8695DF082A8F6D68112F00FB99 /* Debug */,
-				D3F1BA6BC3AD033CA71C7FDE55435B0E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4214E6946993DF02ED98D89047C64016 /* Debug */,
 				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EBE5249E663F930E7649B30ED1E3D3A /* Build configuration list for PBXNativeTarget "Pods-Coolblue-CoolblueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1A7B45E23E89C46845D5E5779969AA /* Debug */,
+				124A7CF89E8DD17576C79DF8AB8EBC50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ADE88666931474FFF06D05AF56DB0A9 /* Build configuration list for PBXNativeTarget "Core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8AC6BA1F19E0441646B48004E78A733 /* Debug */,
+				406127025DF88589769A0F978A3392D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -740,11 +1268,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1F18CEDD53346BEF1CF3E9FB86FB267 /* Build configuration list for PBXNativeTarget "Pods-Coolblue-CoolblueUITests" */ = {
+		9116A7CF9930A4E48D91C118A8B462AB /* Build configuration list for PBXNativeTarget "Pods-Coolblue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A5FA63497E2CA65C881589602F83644 /* Debug */,
-				2C76BA78E176849D429D2940E586C81B /* Release */,
+				5F4FE1E994978FBDC79A43F7C65F7BCF /* Debug */,
+				45E2D78C791A8E8A2932540421D6D094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A2258151A79DEC9FF0F5BD901F85F0 /* Build configuration list for PBXNativeTarget "Network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D892B042234BFA64758AD46CF7ECD0 /* Debug */,
+				2ACF24A353B8BE198473934C88E2500E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

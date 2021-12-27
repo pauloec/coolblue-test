@@ -1,3 +1,22 @@
-PODFILE CHECKSUM: 1f8d2ca62149e87706ca8abfa4082ed39ee7479c
+PODS:
+  - Core (0.1.0)
+  - Network (0.1.0):
+    - Core
+
+DEPENDENCIES:
+  - Core (from `Modules/Core`)
+  - Network (from `Modules/Network`)
+
+EXTERNAL SOURCES:
+  Core:
+    :path: Modules/Core
+  Network:
+    :path: Modules/Network
+
+SPEC CHECKSUMS:
+  Core: b4d49d33ea49694bc0bb003716776e3e238a9d1d
+  Network: 1d8c5d3522c58dc66b14738e61eec2958301a555
+
+PODFILE CHECKSUM: 358bef8d36bda50a288f090dfa62c99b51aba851
 
 COCOAPODS: 1.11.2

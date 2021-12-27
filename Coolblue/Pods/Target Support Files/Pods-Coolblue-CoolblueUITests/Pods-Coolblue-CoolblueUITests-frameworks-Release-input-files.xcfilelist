@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Coolblue-CoolblueUITests/Pods-Coolblue-CoolblueUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Core/Core.framework
+${BUILT_PRODUCTS_DIR}/Network/Network.framework
