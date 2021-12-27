@@ -7,71 +7,117 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0275A878502B943E60294E61254A26E5 /* Pods-Coolblue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A376ABFF4B3BCCEFE90BA0EFEF4EAB /* Pods-Coolblue-dummy.m */; };
-		039C0251229724BDF673AFA04C67438A /* CellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746235B5313F79A515408C18BC9C1F36 /* CellProtocol.swift */; };
-		0779D72D6EFCA683D9E5AA023556E832 /* Network-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D02EA1EA7D83BC949EAA075AC56DDBA6 /* Network-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D8E2C8414368F4FAC3688803EC2DE02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		17E2EB5204AB85F51B6924ECC12C5613 /* UIView+NSLayoutAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8336D3B75BFA59A4858065BDCA2E931 /* UIView+NSLayoutAnchor.swift */; };
-		23D4E281BB3741782A70E22B318261CD /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF819FDC0AD8C19C15DEFC5A66086 /* ViewModelProtocol.swift */; };
+		039C0251229724BDF673AFA04C67438A /* CellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB932B929890AFB48F84B8352113A4F /* CellProtocol.swift */; };
+		05ED5029CFD8BDD6C688A1B430F32F93 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E010E513F85A20DB223F01A1EE635A86 /* ResponseModel.swift */; };
+		06D9536AF4EAD47E2EC59F553E123320 /* ProductSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA75BF23F798AF3AFEB3910E3445B4 /* ProductSearchViewController.swift */; };
+		10A060CDA9AF6A05625003E2AE2DF580 /* Pods-Coolblue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A376ABFF4B3BCCEFE90BA0EFEF4EAB /* Pods-Coolblue-dummy.m */; };
+		17E2EB5204AB85F51B6924ECC12C5613 /* UIView+NSLayoutAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8701174B204D90D418AF30E9407F462 /* UIView+NSLayoutAnchor.swift */; };
+		192AB6CB58307CB48A526095C7F6ED87 /* ProductSearch-StoreSearch in Resources */ = {isa = PBXBuildFile; fileRef = 908A7F121FF42B28A1C07569202FB180 /* ProductSearch-StoreSearch */; };
+		23D4E281BB3741782A70E22B318261CD /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD92D51263010FA254A7D56F60CBCFB2 /* ViewModelProtocol.swift */; };
+		2C9F1A3CB9486E334B0D92A29FF5962E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4FEDE1662C266CFD28E902CDDA36CB /* Images.xcassets */; };
+		331B0605EF7D7630C1108829A8EA0189 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2854F3D3F6EE7CFAFB1A25C5BFBCCA05 /* LogManager.swift */; };
+		3602387B4AFB808F240E992D03D39F55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3744A1F48F7E625EC0A954F5055860CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		386F5E061FEAEE93F7DF7076104F4AEC /* Network-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92DD0A13432FE900B3BDD4421C6A68C2 /* Network-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38ED87919577D279783BDB5090143250 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3E46898B1E579E3CF02382B2D179BB31 /* Core-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B467CD83E6BC9EEBD8D6921588E231 /* Core-dummy.m */; };
-		45F672B35564F48A0239F09CD7117614 /* Network-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89725BB142995B63C5EFBD3DDF7FB76E /* Network-dummy.m */; };
-		49236B99DE40E636024033D8B31298C9 /* Pods-Coolblue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A975AF44BABC7C857C8DA3456B347B /* Pods-Coolblue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BB84E0D76BD673CA7C3E81F8387D98C /* Pods-Coolblue-CoolblueUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 495D070B2092D48D796BA0BEE558AC4B /* Pods-Coolblue-CoolblueUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60B817473687DE36D0727DDB9BBA0BEE /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C699CA9ACAC313BD90BD0C2AB5EC296 /* CoordinatorProtocol.swift */; };
-		63A7076F66FDA10D1FC0446E984D9C82 /* Core-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4C67F84D7A9DEBB2389FBCD24315AF /* Core-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8641005920237632C25BD3A4A5B162AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3E46898B1E579E3CF02382B2D179BB31 /* Core-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2C501737D16DD402CC83D6EA2C4F19 /* Core-dummy.m */; };
+		4029B8F67D9D41ACA59118FFD2F900AD /* Pods-Coolblue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A975AF44BABC7C857C8DA3456B347B /* Pods-Coolblue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		444CA42BF85045A96E5C86B136CB580A /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BE7E1F23865091A31854FEF4F25966 /* RequestModel.swift */; };
+		50DF0AA385F38602B869E281BEB6B00F /* PickupSearchCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A6A47D2DB740ADF9C7744379D817BA /* PickupSearchCellViewModel.swift */; };
+		5A8A00044BA48144D73F9D69C7F734E7 /* ProductSearch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EB676B8CB7243BD3DA9EA01D6B058B /* ProductSearch-dummy.m */; };
+		60B817473687DE36D0727DDB9BBA0BEE /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AE5D5BE25C2E854658D3CACAD8794B /* CoordinatorProtocol.swift */; };
+		63A7076F66FDA10D1FC0446E984D9C82 /* Core-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7FF11BC36A71A7191A4DBCA88D832AD /* Core-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63B3FBB918D22766DA64A9117BD7F98E /* ProductSearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DA133A979621D5C71FC5DD6F426FB2 /* ProductSearchCoordinator.swift */; };
+		66306C4482624E19437D023D5D55FFC9 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C300176D45B18142608EB850353014F /* ServiceManager.swift */; };
+		719E2D790ACCF9665A4FBB0A1D3C84FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		752DB1B5ED47CF32048778AFF9B1B74B /* ProductSearchBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9577DEF6DB7A412DCE4D3FF9D1E80D /* ProductSearchBundle.swift */; };
 		8F137EEEACC2B792D69565150E817E14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9BE1BFB7BE6420317C61BEE66D84ECC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B11F3ED4E7FF4F32B34B39082D0E7152 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8096B1AB74422895FE5B2AFD48367180 /* ErrorModel.swift */; };
-		C24FFBD111BDC07347BFB75DDDCE6157 /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6AA50C1161C384AB3B7AFA3DDB385 /* RequestModel.swift */; };
-		C3062C3688497C58D6CE437958D877C8 /* Pods-Coolblue-CoolblueUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EA62678EB969DE85681D8D290FC4C8 /* Pods-Coolblue-CoolblueUITests-dummy.m */; };
-		C947B298DD781F7A1BA7363789215FD0 /* Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73739DC893331E8D314E49F84A62ABB8 /* Binder.swift */; };
-		E0C6F68F2281EE83FBF8F0379BD8B0D7 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760F9DED2EEE3598E63ADBC2C27760B7 /* LogManager.swift */; };
+		92460733EAB8ACA116673ACE5D35822E /* Pods-Coolblue-CoolblueUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 495D070B2092D48D796BA0BEE558AC4B /* Pods-Coolblue-CoolblueUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		947DCD322110F2FD05B6BDEE3C956A6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9D8D0967FE19393288E816FE7275DA02 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408468EAA7BE8B640CDB61AAD2766E29 /* ErrorModel.swift */; };
+		A0F0C3C841DEC37EBEDC401CC98B7CEB /* PickupSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1921A9BE178214FAF59AA6DD001E96D /* PickupSearchCell.swift */; };
+		B6D2ED78DE2EF0C56F74AA5156FC9FC4 /* ProductSearch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A26D4344A85D096CD4C2C79B8A16DA /* ProductSearch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C947B298DD781F7A1BA7363789215FD0 /* Binder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23FE5140D2AF14253547F62430FE63C /* Binder.swift */; };
+		DB5CE0AD3F67F255E7FE4E28DB7AF41E /* ProductSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F608CD91A391042458DCCDB22A5FDF /* ProductSearchViewModel.swift */; };
 		E0E956F3F5E37CC947A3D24F900EF9EB /* Pods-CoolblueTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55401F5F81B8F9BF820EE8D795A6307B /* Pods-CoolblueTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA672375FDBEC03EA9348B74CB6E032B /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A564D3338FD7544F4C4A83B260969B99 /* ServiceManager.swift */; };
-		FC8F38DB3B8B6FF8C969DFF4B98BD55E /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4132E7EE30EFA39265BD3AC265B4B247 /* ResponseModel.swift */; };
-		FD05CD783947440ACEAE3A9BFE01BA1C /* ViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8C4497A4C545E1F14292A76B39D7F /* ViewControllerProtocol.swift */; };
+		EA11538311F9CA222D83C9242C8932E1 /* Network-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F83C25344869C06F63AC25C095312E /* Network-dummy.m */; };
+		EBD9854A57E668D939059AD2D2892FF6 /* Pods-Coolblue-CoolblueUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EA62678EB969DE85681D8D290FC4C8 /* Pods-Coolblue-CoolblueUITests-dummy.m */; };
+		FD05CD783947440ACEAE3A9BFE01BA1C /* ViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41897FC2DB543AECA45ECD692B925128 /* ViewControllerProtocol.swift */; };
 		FE8431EFC2F4B2AB9EF262D6C3996BCD /* Pods-CoolblueTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8B8680B4CB5E8245DEDC2B308325A1 /* Pods-CoolblueTests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		240CB1145EFE24E9A525FC762D0559B3 /* PBXContainerItemProxy */ = {
+		130991B4B9CCD2417D3DBEFA82B80008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FEDCED8796FFCA46764CDA8CBCC869C;
+			remoteInfo = Network;
+		};
+		15634F94A2FF9D24900AA8DBC7AD3DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045EA0CC8B1D13A2E99A2219A6EAFB1A;
+			remoteInfo = Core;
+		};
+		21D46945135869A5DB030E9016604BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FEDCED8796FFCA46764CDA8CBCC869C;
+			remoteInfo = Network;
+		};
+		2E12F8155B27A0E47C1CE2CA9EDCB67C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FEDCED8796FFCA46764CDA8CBCC869C;
+			remoteInfo = Network;
+		};
+		3AFEF4FDEB5DB6E3F0E2369492356690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19F1E12ED76AA79A92C1A8A91F65EDE8;
+			remoteInfo = ProductSearch;
+		};
+		4D20D38FCEADB71EC2D774CD78C703F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045EA0CC8B1D13A2E99A2219A6EAFB1A;
+			remoteInfo = Core;
+		};
+		4EF6091D0DE14D61C92E6A210C0D8003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045EA0CC8B1D13A2E99A2219A6EAFB1A;
+			remoteInfo = Core;
+		};
+		87B982458EAC6E0CAED037711685420D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7744DEA74262A4D624CDE590F84AF32A;
+			remoteInfo = "ProductSearch-StoreSearch";
+		};
+		969A6E8E6AC6876596FEA612BD177577 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19F1E12ED76AA79A92C1A8A91F65EDE8;
+			remoteInfo = ProductSearch;
+		};
+		A8A3A1303070185CE095BCDFE87757C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C08B9A558C127362CF17A251C6F21D59;
 			remoteInfo = "Pods-Coolblue";
 		};
-		332918B5F7428B6262207BD8B0EECABF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 045EA0CC8B1D13A2E99A2219A6EAFB1A;
-			remoteInfo = Core;
-		};
-		338FAD72A69CDB46FA638F2FF2CDA0FF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 045EA0CC8B1D13A2E99A2219A6EAFB1A;
-			remoteInfo = Core;
-		};
-		451C7C83A78E05DFA0A9C8F7FE5C3B12 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2FEDCED8796FFCA46764CDA8CBCC869C;
-			remoteInfo = Network;
-		};
-		716A65CBBEE7531E0670FD4ACB3EAED0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2FEDCED8796FFCA46764CDA8CBCC869C;
-			remoteInfo = Network;
-		};
-		EB0A15582B862156A00AEDA49829038C /* PBXContainerItemProxy */ = {
+		BB8932AA3E186614B27656511BA1BD66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -81,68 +127,87 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		071076A72BF3D49C9D4355401CD37913 /* ProductSearch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ProductSearch-Info.plist"; sourceTree = "<group>"; };
+		086F9ECBBAF59D31D63119533DE23BD2 /* Network.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Network.debug.xcconfig; sourceTree = "<group>"; };
+		14F608CD91A391042458DCCDB22A5FDF /* ProductSearchViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProductSearchViewModel.swift; sourceTree = "<group>"; };
 		177E40F760F51EF9E792207061F4FB05 /* Pods-Coolblue-CoolblueUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coolblue-CoolblueUITests.release.xcconfig"; sourceTree = "<group>"; };
 		23F6F18E72F515892792EA3DBC173CE5 /* Pods-Coolblue-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Coolblue-frameworks.sh"; sourceTree = "<group>"; };
-		2576D8AA286E2A9A03C338B8B741679B /* Core-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Core-Info.plist"; sourceTree = "<group>"; };
+		2854F3D3F6EE7CFAFB1A25C5BFBCCA05 /* LogManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogManager.swift; path = Network/Manager/LogManager.swift; sourceTree = "<group>"; };
 		29A975AF44BABC7C857C8DA3456B347B /* Pods-Coolblue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Coolblue-umbrella.h"; sourceTree = "<group>"; };
-		2EB8ABC3D717F3DF4439A2AEB4E3F85E /* Network.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Network.debug.xcconfig; sourceTree = "<group>"; };
-		356BC7C0F80623FCDDFA7BEA095143D5 /* Core.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Core.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4132E7EE30EFA39265BD3AC265B4B247 /* ResponseModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		2FC23ED5A90116AF90B9BECDA259D526 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3C4FEDE1662C266CFD28E902CDDA36CB /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Assets/Images.xcassets; sourceTree = "<group>"; };
+		408468EAA7BE8B640CDB61AAD2766E29 /* ErrorModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
 		415F65EDD7370565ACC9552A877DEAEA /* Pods-Coolblue-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coolblue-Info.plist"; sourceTree = "<group>"; };
+		41897FC2DB543AECA45ECD692B925128 /* ViewControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewControllerProtocol.swift; sourceTree = "<group>"; };
+		41A6A47D2DB740ADF9C7744379D817BA /* PickupSearchCellViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PickupSearchCellViewModel.swift; sourceTree = "<group>"; };
+		4456FD3DAB70255703B709B05AD948D5 /* Network-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Network-Info.plist"; sourceTree = "<group>"; };
+		465F6E61217C1C1B1CE774936C268CE5 /* ProductSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ProductSearch.debug.xcconfig; sourceTree = "<group>"; };
 		495D070B2092D48D796BA0BEE558AC4B /* Pods-Coolblue-CoolblueUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Coolblue-CoolblueUITests-umbrella.h"; sourceTree = "<group>"; };
 		4A8B8680B4CB5E8245DEDC2B308325A1 /* Pods-CoolblueTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoolblueTests-dummy.m"; sourceTree = "<group>"; };
 		55401F5F81B8F9BF820EE8D795A6307B /* Pods-CoolblueTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoolblueTests-umbrella.h"; sourceTree = "<group>"; };
-		62F6AA50C1161C384AB3B7AFA3DDB385 /* RequestModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
+		55A96CAA3DE31F396484DB58219E5EAC /* Network.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Network.release.xcconfig; sourceTree = "<group>"; };
+		56F3868484CFDE7E5F9E0B6A8FC6B60A /* Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Core.release.xcconfig; sourceTree = "<group>"; };
+		5E3FF581840B22C77761B2393D677CEE /* Core.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Core.modulemap; sourceTree = "<group>"; };
+		5EB4B5B7FADDB582994AD6A0FC19B6E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6425A5A58D2250F95A8B98C77646B850 /* Core-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Core-Info.plist"; sourceTree = "<group>"; };
 		6A3A5940A66B2B6CF1F3FA03C8521290 /* Pods-CoolblueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolblueTests.release.xcconfig"; sourceTree = "<group>"; };
-		719F330D52BE14D5AC85BD675A975807 /* Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Core.release.xcconfig; sourceTree = "<group>"; };
+		6AB932B929890AFB48F84B8352113A4F /* CellProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CellProtocol.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73739DC893331E8D314E49F84A62ABB8 /* Binder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Binder.swift; sourceTree = "<group>"; };
-		746235B5313F79A515408C18BC9C1F36 /* CellProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CellProtocol.swift; sourceTree = "<group>"; };
-		75B467CD83E6BC9EEBD8D6921588E231 /* Core-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Core-dummy.m"; sourceTree = "<group>"; };
-		760F9DED2EEE3598E63ADBC2C27760B7 /* LogManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
+		77413A247C54CE2E696FCDD966E417FD /* ProductSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ProductSearch.release.xcconfig; sourceTree = "<group>"; };
+		77BE7E1F23865091A31854FEF4F25966 /* RequestModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
+		77F83C25344869C06F63AC25C095312E /* Network-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Network-dummy.m"; sourceTree = "<group>"; };
 		78EA62678EB969DE85681D8D290FC4C8 /* Pods-Coolblue-CoolblueUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Coolblue-CoolblueUITests-dummy.m"; sourceTree = "<group>"; };
+		7B7E75D46A3BE2C12F7B4679C7FF8D83 /* Network.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Network.modulemap; sourceTree = "<group>"; };
 		7BEABD4E1EDD2068DC08742C01F58CBF /* Pods-CoolblueTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoolblueTests.modulemap"; sourceTree = "<group>"; };
 		7EF3C98A50415D5285A74C21D46D1A97 /* Pods-Coolblue-CoolblueUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Coolblue-CoolblueUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8096B1AB74422895FE5B2AFD48367180 /* ErrorModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
-		87E5A31E460DA140FE771E3FC2BBC860 /* Core-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Core-prefix.pch"; sourceTree = "<group>"; };
-		89725BB142995B63C5EFBD3DDF7FB76E /* Network-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Network-dummy.m"; sourceTree = "<group>"; };
 		8A5280C8B3F6AA86C2E080086DCB4D53 /* Pods-CoolblueTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolblueTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8A73C18FCE4182B0DABA1B1C51B3AFE8 /* Pods-Coolblue-CoolblueUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Coolblue-CoolblueUITests.modulemap"; sourceTree = "<group>"; };
-		8B141B05701B68C095322490E2BF53CD /* Core.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Core.modulemap; sourceTree = "<group>"; };
-		8C4DF819FDC0AD8C19C15DEFC5A66086 /* ViewModelProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
-		8C699CA9ACAC313BD90BD0C2AB5EC296 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
-		8E4C67F84D7A9DEBB2389FBCD24315AF /* Core-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Core-umbrella.h"; sourceTree = "<group>"; };
+		908A7F121FF42B28A1C07569202FB180 /* ProductSearch-StoreSearch */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ProductSearch-StoreSearch"; path = StoreSearch.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FBB916628EC7D1CE488279994BD6D7 /* Pods-Coolblue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coolblue.release.xcconfig"; sourceTree = "<group>"; };
+		91AE5D5BE25C2E854658D3CACAD8794B /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		92DD0A13432FE900B3BDD4421C6A68C2 /* Network-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Network-umbrella.h"; sourceTree = "<group>"; };
 		991222BC91244FF7535628F4160B0374 /* Pods-Coolblue-CoolblueUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coolblue-CoolblueUITests-Info.plist"; sourceTree = "<group>"; };
+		9C300176D45B18142608EB850353014F /* ServiceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceManager.swift; path = Network/Manager/ServiceManager.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E0E39976D1C31E527CAC75E919322AE /* Pods-Coolblue-CoolblueUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Coolblue-CoolblueUITests-frameworks.sh"; sourceTree = "<group>"; };
-		A564D3338FD7544F4C4A83B260969B99 /* ServiceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
-		A9A8C4497A4C545E1F14292A76B39D7F /* ViewControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewControllerProtocol.swift; sourceTree = "<group>"; };
+		9E9577DEF6DB7A412DCE4D3FF9D1E80D /* ProductSearchBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProductSearchBundle.swift; sourceTree = "<group>"; };
+		A23FE5140D2AF14253547F62430FE63C /* Binder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Binder.swift; sourceTree = "<group>"; };
+		A468EFA571895FA7CF609D1E48D0371B /* Network-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Network-prefix.pch"; sourceTree = "<group>"; };
+		A4B059233D241C1C8E15D86465C4D021 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A4EB676B8CB7243BD3DA9EA01D6B058B /* ProductSearch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ProductSearch-dummy.m"; sourceTree = "<group>"; };
 		A9FDED1F14A9367A03FD10463FC4C733 /* Pods-Coolblue-CoolblueUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coolblue-CoolblueUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		ABF1568D5FB0568927174F98FEC11291 /* Network.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Network.release.xcconfig; sourceTree = "<group>"; };
+		AB2C501737D16DD402CC83D6EA2C4F19 /* Core-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Core-dummy.m"; sourceTree = "<group>"; };
 		AD869E0451F318AE272D264F34392A43 /* Pods-Coolblue */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Coolblue"; path = Pods_Coolblue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC58A86DAC423B7965BFE73EFD8104A /* Network */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Network; path = Network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBBEA014D53C0B0315233357ED2C8F8 /* Pods-CoolblueTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolblueTests-Info.plist"; sourceTree = "<group>"; };
 		B18C7F40610365A306C3342F3222C627 /* Pods-CoolblueTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoolblueTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B2A376ABFF4B3BCCEFE90BA0EFEF4EAB /* Pods-Coolblue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Coolblue-dummy.m"; sourceTree = "<group>"; };
 		B354CD95A1BD0CA7485A9F75FCC4331A /* Core */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Core; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B592ECC8519546D918046B4CB17EAED8 /* Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Core.debug.xcconfig; sourceTree = "<group>"; };
-		B9378F9F22702C6DBC85BAD9BCCFFB46 /* Network-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Network-Info.plist"; sourceTree = "<group>"; };
-		BC16E2D2B8FD00CA80F1DCA86A9F4502 /* Network.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Network.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BD432B9E189BA45A19ACA7C1151FA5C6 /* Pods-Coolblue-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Coolblue-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BD48BC267AA730952072807350E7E920 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C5852AE500C11F345F6F66814D272FD3 /* Pods-CoolblueTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CoolblueTests"; path = Pods_CoolblueTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D02EA1EA7D83BC949EAA075AC56DDBA6 /* Network-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Network-umbrella.h"; sourceTree = "<group>"; };
-		D50F6FEC85F52717A9B2725F2E1093EC /* Network-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Network-prefix.pch"; sourceTree = "<group>"; };
+		C7FF11BC36A71A7191A4DBCA88D832AD /* Core-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Core-umbrella.h"; sourceTree = "<group>"; };
+		C847BD24FB12EC5AA4E6469935D15A18 /* ProductSearch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ProductSearch.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CCC14444373FF7C5508B582BE9C94851 /* Network.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Network.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CD92D51263010FA254A7D56F60CBCFB2 /* ViewModelProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
+		D593CAF1A4249EC526F6ABE0B7E12F6F /* ProductSearch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProductSearch-prefix.pch"; sourceTree = "<group>"; };
 		D668A8B6D37A9AC0742433F08D78E7A8 /* Pods-Coolblue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Coolblue.modulemap"; sourceTree = "<group>"; };
 		D70E753F14B54249A901F9F107707C53 /* Pods-Coolblue-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coolblue-acknowledgements.plist"; sourceTree = "<group>"; };
 		D78F99FD118811C22097219E9ED223A4 /* Pods-Coolblue-CoolblueUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Coolblue-CoolblueUITests"; path = Pods_Coolblue_CoolblueUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8336D3B75BFA59A4858065BDCA2E931 /* UIView+NSLayoutAnchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+NSLayoutAnchor.swift"; sourceTree = "<group>"; };
 		DB2041206B3A2541DD44BF7B87ED463A /* Pods-CoolblueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolblueTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB2D977AA69688A69487D9BABFFD1F12 /* Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Core.debug.xcconfig; sourceTree = "<group>"; };
+		E010E513F85A20DB223F01A1EE635A86 /* ResponseModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		E14C0590090B78DF12C168AB332B4DC2 /* Core-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Core-prefix.pch"; sourceTree = "<group>"; };
+		E1921A9BE178214FAF59AA6DD001E96D /* PickupSearchCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PickupSearchCell.swift; sourceTree = "<group>"; };
+		E1DA133A979621D5C71FC5DD6F426FB2 /* ProductSearchCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductSearchCoordinator.swift; path = ProductSearch/ProductSearchCoordinator.swift; sourceTree = "<group>"; };
+		E497A907104A15627836270312973398 /* ProductSearch */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ProductSearch; path = ProductSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E686E8CAB004ED543FBB29FA36601653 /* Core.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Core.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E8701174B204D90D418AF30E9407F462 /* UIView+NSLayoutAnchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+NSLayoutAnchor.swift"; sourceTree = "<group>"; };
+		EF8CAEF7F3F7A880F58E53BD8C5C2C0B /* ResourceBundle-StoreSearch-ProductSearch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-StoreSearch-ProductSearch-Info.plist"; sourceTree = "<group>"; };
 		EFFC62F92013E19C8EC244A803ADDECC /* Pods-Coolblue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coolblue.debug.xcconfig"; sourceTree = "<group>"; };
-		F31124109D2A249C2F42B93F3B1F9B20 /* Network.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Network.modulemap; sourceTree = "<group>"; };
-		FA73371EC40874FBF1BE41173D072F2C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F9A26D4344A85D096CD4C2C79B8A16DA /* ProductSearch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProductSearch-umbrella.h"; sourceTree = "<group>"; };
+		FDFA75BF23F798AF3AFEB3910E3445B4 /* ProductSearchViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProductSearchViewController.swift; sourceTree = "<group>"; };
 		FF4468A4181F9A4963BC0498D9AD254B /* Pods-Coolblue-CoolblueUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Coolblue-CoolblueUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FFEC6BBB6E93C624CCE654508ECA2C89 /* ProductSearch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ProductSearch.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,19 +219,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F45206C12FFDDF62CCFD169FB2D7701 /* Frameworks */ = {
+		1B3C6C22D853D22F6BBEAC667EFD0357 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D8E2C8414368F4FAC3688803EC2DE02 /* Foundation.framework in Frameworks */,
+				3602387B4AFB808F240E992D03D39F55 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		580DE97C03143AB9674D8F952F026A4C /* Frameworks */ = {
+		226CF7AC1C7680FAECC4A7D4EEC5609F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8641005920237632C25BD3A4A5B162AF /* Foundation.framework in Frameworks */,
+				3744A1F48F7E625EC0A954F5055860CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4667477C763CCAE3F619D66F18091951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947DCD322110F2FD05B6BDEE3C956A6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83817C188D52675BB37324872FA0DA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719E2D790ACCF9665A4FBB0A1D3C84FD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,99 +259,73 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3F24D733D9C1AA3917F642BBC1A2B7C /* Frameworks */ = {
+		C16441F30F2671513945C2570E972EF6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BE1BFB7BE6420317C61BEE66D84ECC6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04C05D71986963402C28E74D5BBD1A01 /* Pod */ = {
+		09AD33A0E158F71B452BD8A52248ADF5 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				FA73371EC40874FBF1BE41173D072F2C /* LICENSE */,
-				BC16E2D2B8FD00CA80F1DCA86A9F4502 /* Network.podspec */,
+				A23FE5140D2AF14253547F62430FE63C /* Binder.swift */,
 			);
-			name = Pod;
+			name = Tool;
+			path = Core/Tool;
 			sourceTree = "<group>";
 		};
-		20A8817D36DEA37B9BB9F1D50F2A786E /* Core */ = {
+		1CDA20B557FCC321ED9F68434BE2D13D /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				2B6CCF9A82164318346D093FCA328944 /* Extension */,
-				29FAFE8AD99C8A141E5F28E549FF0309 /* Pod */,
-				451F7BBBF7E0F37E5F11ED47065A8B9E /* Protocol */,
-				D206635B271E86C2C401919231559554 /* Support Files */,
-				C6E28F3D9A6B10E36D322D8C7A315577 /* Tool */,
-			);
-			name = Core;
-			path = ../Modules/Core;
-			sourceTree = "<group>";
-		};
-		27494183EE0A05687D22AB17D4F57D20 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B354CD95A1BD0CA7485A9F75FCC4331A /* Core */,
-				ADC58A86DAC423B7965BFE73EFD8104A /* Network */,
-				AD869E0451F318AE272D264F34392A43 /* Pods-Coolblue */,
-				D78F99FD118811C22097219E9ED223A4 /* Pods-Coolblue-CoolblueUITests */,
-				C5852AE500C11F345F6F66814D272FD3 /* Pods-CoolblueTests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		29FAFE8AD99C8A141E5F28E549FF0309 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				356BC7C0F80623FCDDFA7BEA095143D5 /* Core.podspec */,
-				BD48BC267AA730952072807350E7E920 /* LICENSE */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		2B54A854AF917A36744B8A214E50349A /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				2BD8729D1ABBDCB73286BF27E7A61E57 /* Endpoint */,
-				8C6CCE927A9DA3076149F802361620EA /* Manager */,
-				04C05D71986963402C28E74D5BBD1A01 /* Pod */,
-				AB32D2A8BD053EF7DE12461414011FD0 /* Support Files */,
-			);
-			name = Network;
-			path = ../Modules/Network;
-			sourceTree = "<group>";
-		};
-		2B6CCF9A82164318346D093FCA328944 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				D8336D3B75BFA59A4858065BDCA2E931 /* UIView+NSLayoutAnchor.swift */,
+				E8701174B204D90D418AF30E9407F462 /* UIView+NSLayoutAnchor.swift */,
 			);
 			name = Extension;
 			path = Core/Extension;
 			sourceTree = "<group>";
 		};
-		2BD8729D1ABBDCB73286BF27E7A61E57 /* Endpoint */ = {
+		1DC453BD8C0C7D06D04FB0EC36C8B837 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				A4B059233D241C1C8E15D86465C4D021 /* LICENSE */,
+				CCC14444373FF7C5508B582BE9C94851 /* Network.podspec */,
 			);
-			name = Endpoint;
-			path = Network/Endpoint;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		451F7BBBF7E0F37E5F11ED47065A8B9E /* Protocol */ = {
+		474122C11F46EDD4C5E5F722E2912065 /* SearchList */ = {
 			isa = PBXGroup;
 			children = (
-				8C699CA9ACAC313BD90BD0C2AB5EC296 /* CoordinatorProtocol.swift */,
-				746235B5313F79A515408C18BC9C1F36 /* CellProtocol.swift */,
-				A9A8C4497A4C545E1F14292A76B39D7F /* ViewControllerProtocol.swift */,
-				8C4DF819FDC0AD8C19C15DEFC5A66086 /* ViewModelProtocol.swift */,
+				FDFA75BF23F798AF3AFEB3910E3445B4 /* ProductSearchViewController.swift */,
+				14F608CD91A391042458DCCDB22A5FDF /* ProductSearchViewModel.swift */,
+				C3E4C8EA445C229D1CC5E91EA00E1A45 /* Cell */,
 			);
-			name = Protocol;
-			path = Core/Protocol;
+			path = SearchList;
+			sourceTree = "<group>";
+		};
+		49E0F9DCEE368188359983D74F0F774F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2854F3D3F6EE7CFAFB1A25C5BFBCCA05 /* LogManager.swift */,
+				9C300176D45B18142608EB850353014F /* ServiceManager.swift */,
+				D14B78FE07C884559E084EB8D1826D34 /* Model */,
+				1DC453BD8C0C7D06D04FB0EC36C8B837 /* Pod */,
+				60068A2BD5E699B0E94A24F738FE4F91 /* Support Files */,
+			);
+			name = Network;
+			path = ../Modules/Network;
+			sourceTree = "<group>";
+		};
+		56637113B13C06FC93B63A931C9BB71A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E686E8CAB004ED543FBB29FA36601653 /* Core.podspec */,
+				2FC23ED5A90116AF90B9BECDA259D526 /* LICENSE */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -281,14 +336,41 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		81B88629E77BADBB0D2379965EA4B74A /* Model */ = {
+		60068A2BD5E699B0E94A24F738FE4F91 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8096B1AB74422895FE5B2AFD48367180 /* ErrorModel.swift */,
-				62F6AA50C1161C384AB3B7AFA3DDB385 /* RequestModel.swift */,
-				4132E7EE30EFA39265BD3AC265B4B247 /* ResponseModel.swift */,
+				7B7E75D46A3BE2C12F7B4679C7FF8D83 /* Network.modulemap */,
+				77F83C25344869C06F63AC25C095312E /* Network-dummy.m */,
+				4456FD3DAB70255703B709B05AD948D5 /* Network-Info.plist */,
+				A468EFA571895FA7CF609D1E48D0371B /* Network-prefix.pch */,
+				92DD0A13432FE900B3BDD4421C6A68C2 /* Network-umbrella.h */,
+				086F9ECBBAF59D31D63119533DE23BD2 /* Network.debug.xcconfig */,
+				55A96CAA3DE31F396484DB58219E5EAC /* Network.release.xcconfig */,
 			);
-			path = Model;
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/Network";
+			sourceTree = "<group>";
+		};
+		609247BBA81FE831F2D3439C3AE77D76 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9E9577DEF6DB7A412DCE4D3FF9D1E80D /* ProductSearchBundle.swift */,
+			);
+			name = Extension;
+			path = ProductSearch/Extension;
+			sourceTree = "<group>";
+		};
+		6DCC106AB49EF775491CFA9B9D781A41 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1CDA20B557FCC321ED9F68434BE2D13D /* Extension */,
+				56637113B13C06FC93B63A931C9BB71A /* Pod */,
+				E02C21D9A9733761E9A550444A41832A /* Protocol */,
+				EA8D22981C85AE1FD9A076FCFC0887F5 /* Support Files */,
+				09AD33A0E158F71B452BD8A52248ADF5 /* Tool */,
+			);
+			name = Core;
+			path = ../Modules/Core;
 			sourceTree = "<group>";
 		};
 		8C3D0FD607639AF4BD57B5A4BB464019 /* Targets Support Files */ = {
@@ -301,30 +383,43 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8C6CCE927A9DA3076149F802361620EA /* Manager */ = {
+		962D44FA852961F1EAF812B5A0647595 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				760F9DED2EEE3598E63ADBC2C27760B7 /* LogManager.swift */,
-				A564D3338FD7544F4C4A83B260969B99 /* ServiceManager.swift */,
-				81B88629E77BADBB0D2379965EA4B74A /* Model */,
-			);
-			name = Manager;
-			path = Network/Manager;
-			sourceTree = "<group>";
-		};
-		AB32D2A8BD053EF7DE12461414011FD0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F31124109D2A249C2F42B93F3B1F9B20 /* Network.modulemap */,
-				89725BB142995B63C5EFBD3DDF7FB76E /* Network-dummy.m */,
-				B9378F9F22702C6DBC85BAD9BCCFFB46 /* Network-Info.plist */,
-				D50F6FEC85F52717A9B2725F2E1093EC /* Network-prefix.pch */,
-				D02EA1EA7D83BC949EAA075AC56DDBA6 /* Network-umbrella.h */,
-				2EB8ABC3D717F3DF4439A2AEB4E3F85E /* Network.debug.xcconfig */,
-				ABF1568D5FB0568927174F98FEC11291 /* Network.release.xcconfig */,
+				FFEC6BBB6E93C624CCE654508ECA2C89 /* ProductSearch.modulemap */,
+				A4EB676B8CB7243BD3DA9EA01D6B058B /* ProductSearch-dummy.m */,
+				071076A72BF3D49C9D4355401CD37913 /* ProductSearch-Info.plist */,
+				D593CAF1A4249EC526F6ABE0B7E12F6F /* ProductSearch-prefix.pch */,
+				F9A26D4344A85D096CD4C2C79B8A16DA /* ProductSearch-umbrella.h */,
+				465F6E61217C1C1B1CE774936C268CE5 /* ProductSearch.debug.xcconfig */,
+				77413A247C54CE2E696FCDD966E417FD /* ProductSearch.release.xcconfig */,
+				EF8CAEF7F3F7A880F58E53BD8C5C2C0B /* ResourceBundle-StoreSearch-ProductSearch-Info.plist */,
 			);
 			name = "Support Files";
-			path = "../../Pods/Target Support Files/Network";
+			path = "../../Pods/Target Support Files/ProductSearch";
+			sourceTree = "<group>";
+		};
+		AC8A1B23DDD108A4A07A3C7BC7E2C175 /* ProductSearch */ = {
+			isa = PBXGroup;
+			children = (
+				3C4FEDE1662C266CFD28E902CDDA36CB /* Images.xcassets */,
+				E1DA133A979621D5C71FC5DD6F426FB2 /* ProductSearchCoordinator.swift */,
+				609247BBA81FE831F2D3439C3AE77D76 /* Extension */,
+				D0484E2439086D27F48876AE3A514AE9 /* Pod */,
+				BBE286F3B8711B25E5B833FD5A599834 /* Screen */,
+				962D44FA852961F1EAF812B5A0647595 /* Support Files */,
+			);
+			name = ProductSearch;
+			path = ../Modules/ProductSearch;
+			sourceTree = "<group>";
+		};
+		BBE286F3B8711B25E5B833FD5A599834 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				474122C11F46EDD4C5E5F722E2912065 /* SearchList */,
+			);
+			name = Screen;
+			path = ProductSearch/Screen;
 			sourceTree = "<group>";
 		};
 		BC0FD17B7331A42632EF5465C5C6E7BB /* Pods-Coolblue-CoolblueUITests */ = {
@@ -344,13 +439,27 @@
 			path = "Target Support Files/Pods-Coolblue-CoolblueUITests";
 			sourceTree = "<group>";
 		};
-		C6E28F3D9A6B10E36D322D8C7A315577 /* Tool */ = {
+		BC16C60B485D66E1C818791C3BB050DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73739DC893331E8D314E49F84A62ABB8 /* Binder.swift */,
+				B354CD95A1BD0CA7485A9F75FCC4331A /* Core */,
+				ADC58A86DAC423B7965BFE73EFD8104A /* Network */,
+				AD869E0451F318AE272D264F34392A43 /* Pods-Coolblue */,
+				D78F99FD118811C22097219E9ED223A4 /* Pods-Coolblue-CoolblueUITests */,
+				C5852AE500C11F345F6F66814D272FD3 /* Pods-CoolblueTests */,
+				E497A907104A15627836270312973398 /* ProductSearch */,
+				908A7F121FF42B28A1C07569202FB180 /* ProductSearch-StoreSearch */,
 			);
-			name = Tool;
-			path = Core/Tool;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3E4C8EA445C229D1CC5E91EA00E1A45 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E1921A9BE178214FAF59AA6DD001E96D /* PickupSearchCell.swift */,
+				41A6A47D2DB740ADF9C7744379D817BA /* PickupSearchCellViewModel.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		CB546318AD013702A68293EE2CED0AE6 /* Pods-CoolblueTests */ = {
@@ -373,35 +482,31 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D01862FFA28674682ACCBB95ACB6F2D0 /* Development Pods */,
+				D6954CBFFA36409656DE031D1DDCBDA9 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				27494183EE0A05687D22AB17D4F57D20 /* Products */,
+				BC16C60B485D66E1C818791C3BB050DE /* Products */,
 				8C3D0FD607639AF4BD57B5A4BB464019 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D01862FFA28674682ACCBB95ACB6F2D0 /* Development Pods */ = {
+		D0484E2439086D27F48876AE3A514AE9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				20A8817D36DEA37B9BB9F1D50F2A786E /* Core */,
-				2B54A854AF917A36744B8A214E50349A /* Network */,
+				5EB4B5B7FADDB582994AD6A0FC19B6E2 /* LICENSE */,
+				C847BD24FB12EC5AA4E6469935D15A18 /* ProductSearch.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		D206635B271E86C2C401919231559554 /* Support Files */ = {
+		D14B78FE07C884559E084EB8D1826D34 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8B141B05701B68C095322490E2BF53CD /* Core.modulemap */,
-				75B467CD83E6BC9EEBD8D6921588E231 /* Core-dummy.m */,
-				2576D8AA286E2A9A03C338B8B741679B /* Core-Info.plist */,
-				87E5A31E460DA140FE771E3FC2BBC860 /* Core-prefix.pch */,
-				8E4C67F84D7A9DEBB2389FBCD24315AF /* Core-umbrella.h */,
-				B592ECC8519546D918046B4CB17EAED8 /* Core.debug.xcconfig */,
-				719F330D52BE14D5AC85BD675A975807 /* Core.release.xcconfig */,
+				408468EAA7BE8B640CDB61AAD2766E29 /* ErrorModel.swift */,
+				77BE7E1F23865091A31854FEF4F25966 /* RequestModel.swift */,
+				E010E513F85A20DB223F01A1EE635A86 /* ResponseModel.swift */,
 			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/Core";
+			name = Model;
+			path = Network/Manager/Model;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -410,6 +515,43 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6954CBFFA36409656DE031D1DDCBDA9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DCC106AB49EF775491CFA9B9D781A41 /* Core */,
+				49E0F9DCEE368188359983D74F0F774F /* Network */,
+				AC8A1B23DDD108A4A07A3C7BC7E2C175 /* ProductSearch */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E02C21D9A9733761E9A550444A41832A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				6AB932B929890AFB48F84B8352113A4F /* CellProtocol.swift */,
+				91AE5D5BE25C2E854658D3CACAD8794B /* CoordinatorProtocol.swift */,
+				41897FC2DB543AECA45ECD692B925128 /* ViewControllerProtocol.swift */,
+				CD92D51263010FA254A7D56F60CBCFB2 /* ViewModelProtocol.swift */,
+			);
+			name = Protocol;
+			path = Core/Protocol;
+			sourceTree = "<group>";
+		};
+		EA8D22981C85AE1FD9A076FCFC0887F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E3FF581840B22C77761B2393D677CEE /* Core.modulemap */,
+				AB2C501737D16DD402CC83D6EA2C4F19 /* Core-dummy.m */,
+				6425A5A58D2250F95A8B98C77646B850 /* Core-Info.plist */,
+				E14C0590090B78DF12C168AB332B4DC2 /* Core-prefix.pch */,
+				C7FF11BC36A71A7191A4DBCA88D832AD /* Core-umbrella.h */,
+				DB2D977AA69688A69487D9BABFFD1F12 /* Core.debug.xcconfig */,
+				56F3868484CFDE7E5F9E0B6A8FC6B60A /* Core.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/Core";
 			sourceTree = "<group>";
 		};
 		F80C7E5CCAD52E83FA80C1716C68C5A5 /* Pods-Coolblue */ = {
@@ -432,19 +574,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0628E11CB8F07FE7F4A108646C5B4A95 /* Headers */ = {
+		281B1144064761C3EDA1B360CD52CFF3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49236B99DE40E636024033D8B31298C9 /* Pods-Coolblue-umbrella.h in Headers */,
+				4029B8F67D9D41ACA59118FFD2F900AD /* Pods-Coolblue-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3DC44E5AD7BABD7286C03AA7F3F8F9B5 /* Headers */ = {
+		355C2D86F77745176DD88D445194C948 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0779D72D6EFCA683D9E5AA023556E832 /* Network-umbrella.h in Headers */,
+				386F5E061FEAEE93F7DF7076104F4AEC /* Network-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,11 +606,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B47331BFE8A78B1354B61CFBCECA1AA6 /* Headers */ = {
+		B4AD913B9F49F765E36534C95CD57F1D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BB84E0D76BD673CA7C3E81F8387D98C /* Pods-Coolblue-CoolblueUITests-umbrella.h in Headers */,
+				B6D2ED78DE2EF0C56F74AA5156FC9FC4 /* ProductSearch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D838BBEA02ADCFB042DC0B71C562B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92460733EAB8ACA116673ACE5D35822E /* Pods-Coolblue-CoolblueUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,24 +643,62 @@
 			productReference = B354CD95A1BD0CA7485A9F75FCC4331A /* Core */;
 			productType = "com.apple.product-type.framework";
 		};
-		2FEDCED8796FFCA46764CDA8CBCC869C /* Network */ = {
+		19F1E12ED76AA79A92C1A8A91F65EDE8 /* ProductSearch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7A2258151A79DEC9FF0F5BD901F85F0 /* Build configuration list for PBXNativeTarget "Network" */;
+			buildConfigurationList = A20069F7B568B3DAABDDE86B848D70B4 /* Build configuration list for PBXNativeTarget "ProductSearch" */;
 			buildPhases = (
-				3DC44E5AD7BABD7286C03AA7F3F8F9B5 /* Headers */,
-				E9D1E43333C23EA4B069F1B075FE73E5 /* Sources */,
-				3F45206C12FFDDF62CCFD169FB2D7701 /* Frameworks */,
-				2A69E8A038A0183F5E0E25B9F2DF511D /* Resources */,
+				B4AD913B9F49F765E36534C95CD57F1D /* Headers */,
+				127E663A08358AB3DD1A339452ED6A54 /* Sources */,
+				83817C188D52675BB37324872FA0DA89 /* Frameworks */,
+				8056A3E937AF44095E418A8164C5C498 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				681BB0E52CC1F7F152A5CE46F29667E8 /* PBXTargetDependency */,
+				C069202F28C6CFBC6B30F86E88824127 /* PBXTargetDependency */,
+				9A608ADC7096B3521F8DBCB82FDA18E0 /* PBXTargetDependency */,
+				809ADC0F92FB7096398C718EA38DE5D7 /* PBXTargetDependency */,
+			);
+			name = ProductSearch;
+			productName = ProductSearch;
+			productReference = E497A907104A15627836270312973398 /* ProductSearch */;
+			productType = "com.apple.product-type.framework";
+		};
+		2FEDCED8796FFCA46764CDA8CBCC869C /* Network */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BF4DF8DA8DCD1AF280AC0D0F8E24A6 /* Build configuration list for PBXNativeTarget "Network" */;
+			buildPhases = (
+				355C2D86F77745176DD88D445194C948 /* Headers */,
+				950A2999A0DCC79ECB044E87854D8A7E /* Sources */,
+				4667477C763CCAE3F619D66F18091951 /* Frameworks */,
+				88F07ABA705B11FC648DFD5885DE9E5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB2F14C0695EC424677D491584E0C93E /* PBXTargetDependency */,
 			);
 			name = Network;
 			productName = Network;
 			productReference = ADC58A86DAC423B7965BFE73EFD8104A /* Network */;
 			productType = "com.apple.product-type.framework";
+		};
+		7744DEA74262A4D624CDE590F84AF32A /* ProductSearch-StoreSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80197F0B5B0C536809226B40552EBD04 /* Build configuration list for PBXNativeTarget "ProductSearch-StoreSearch" */;
+			buildPhases = (
+				C8C69693CC8537F347118663C3C53BA6 /* Sources */,
+				C16441F30F2671513945C2570E972EF6 /* Frameworks */,
+				A82D04D61840C6F676D47C28E12E5719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ProductSearch-StoreSearch";
+			productName = StoreSearch;
+			productReference = 908A7F121FF42B28A1C07569202FB180 /* ProductSearch-StoreSearch */;
+			productType = "com.apple.product-type.bundle";
 		};
 		81D5188A895C9588F62F1B8961D00C02 /* Pods-CoolblueTests */ = {
 			isa = PBXNativeTarget;
@@ -524,7 +712,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DB4343DC3F93A4CD6AA91BF2159210A2 /* PBXTargetDependency */,
+				89F7503EB0C7702DB16ED6548EEA78DC /* PBXTargetDependency */,
 			);
 			name = "Pods-CoolblueTests";
 			productName = Pods_CoolblueTests;
@@ -533,18 +721,19 @@
 		};
 		C08B9A558C127362CF17A251C6F21D59 /* Pods-Coolblue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9116A7CF9930A4E48D91C118A8B462AB /* Build configuration list for PBXNativeTarget "Pods-Coolblue" */;
+			buildConfigurationList = 4D979CA130A5EAE0D6D3DE132E9B5674 /* Build configuration list for PBXNativeTarget "Pods-Coolblue" */;
 			buildPhases = (
-				0628E11CB8F07FE7F4A108646C5B4A95 /* Headers */,
-				1EE3C60D3BFEF69EE4298AA2AFDC8DB5 /* Sources */,
-				F3F24D733D9C1AA3917F642BBC1A2B7C /* Frameworks */,
-				9810337FE2604D8C7A12902DEFDA0D51 /* Resources */,
+				281B1144064761C3EDA1B360CD52CFF3 /* Headers */,
+				DF819721A9EFCED89D4F5CD2A41AD141 /* Sources */,
+				1B3C6C22D853D22F6BBEAC667EFD0357 /* Frameworks */,
+				E75084BA0B626103DCFD00C8FBEFB789 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EEC0B740C29F29D12C85465278C56D7C /* PBXTargetDependency */,
-				C1035331E89543582BBDCE1E8C54051B /* PBXTargetDependency */,
+				84C6BDA613001806704E9AD799F7BD98 /* PBXTargetDependency */,
+				B03D610A6D5FAB278BBB66D095CDB4FD /* PBXTargetDependency */,
+				BE59CC491BBE174161B9A4CE730AA416 /* PBXTargetDependency */,
 			);
 			name = "Pods-Coolblue";
 			productName = Pods_Coolblue;
@@ -553,18 +742,19 @@
 		};
 		F1C0D7A4B0412EDC2E3A40CE2A1CDF54 /* Pods-Coolblue-CoolblueUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EBE5249E663F930E7649B30ED1E3D3A /* Build configuration list for PBXNativeTarget "Pods-Coolblue-CoolblueUITests" */;
+			buildConfigurationList = 1640CC89BD610BA4A7EB10E5D43558FB /* Build configuration list for PBXNativeTarget "Pods-Coolblue-CoolblueUITests" */;
 			buildPhases = (
-				B47331BFE8A78B1354B61CFBCECA1AA6 /* Headers */,
-				BEE26E6C59CC17E23B11752D738BA7A4 /* Sources */,
-				580DE97C03143AB9674D8F952F026A4C /* Frameworks */,
-				C4AEE03B1C0757B74E5C16B73ACC7A3A /* Resources */,
+				F0D838BBEA02ADCFB042DC0B71C562B3 /* Headers */,
+				FFE7A6238CAB98DB68AF3D46A8F9BE28 /* Sources */,
+				226CF7AC1C7680FAECC4A7D4EEC5609F /* Frameworks */,
+				E57EDE16E4632E50FA0C763C08B5A027 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				002D7984D455DF358BC15E31A03C39A0 /* PBXTargetDependency */,
-				EE75C64448D232956C6C5E81AE13E890 /* PBXTargetDependency */,
+				6C9EA1E95A1D24B8970C62101A8A7577 /* PBXTargetDependency */,
+				00ED507CCCC3D28CC78C001FF56D8603 /* PBXTargetDependency */,
+				B03CC80C02F120A7161EC5351DA6183C /* PBXTargetDependency */,
 			);
 			name = "Pods-Coolblue-CoolblueUITests";
 			productName = Pods_Coolblue_CoolblueUITests;
@@ -589,7 +779,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 27494183EE0A05687D22AB17D4F57D20 /* Products */;
+			productRefGroup = BC16C60B485D66E1C818791C3BB050DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -598,18 +788,13 @@
 				C08B9A558C127362CF17A251C6F21D59 /* Pods-Coolblue */,
 				F1C0D7A4B0412EDC2E3A40CE2A1CDF54 /* Pods-Coolblue-CoolblueUITests */,
 				81D5188A895C9588F62F1B8961D00C02 /* Pods-CoolblueTests */,
+				19F1E12ED76AA79A92C1A8A91F65EDE8 /* ProductSearch */,
+				7744DEA74262A4D624CDE590F84AF32A /* ProductSearch-StoreSearch */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2A69E8A038A0183F5E0E25B9F2DF511D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2B5AB1A20A6C963532945E4979FA58EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -624,14 +809,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9810337FE2604D8C7A12902DEFDA0D51 /* Resources */ = {
+		8056A3E937AF44095E418A8164C5C498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				192AB6CB58307CB48A526095C7F6ED87 /* ProductSearch-StoreSearch in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F07ABA705B11FC648DFD5885DE9E5E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4AEE03B1C0757B74E5C16B73ACC7A3A /* Resources */ = {
+		A82D04D61840C6F676D47C28E12E5719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9F1A3CB9486E334B0D92A29FF5962E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57EDE16E4632E50FA0C763C08B5A027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75084BA0B626103DCFD00C8FBEFB789 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -641,11 +849,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1EE3C60D3BFEF69EE4298AA2AFDC8DB5 /* Sources */ = {
+		127E663A08358AB3DD1A339452ED6A54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0275A878502B943E60294E61254A26E5 /* Pods-Coolblue-dummy.m in Sources */,
+				752DB1B5ED47CF32048778AFF9B1B74B /* ProductSearchBundle.swift in Sources */,
+				A0F0C3C841DEC37EBEDC401CC98B7CEB /* PickupSearchCell.swift in Sources */,
+				50DF0AA385F38602B869E281BEB6B00F /* PickupSearchCellViewModel.swift in Sources */,
+				63B3FBB918D22766DA64A9117BD7F98E /* ProductSearchCoordinator.swift in Sources */,
+				06D9536AF4EAD47E2EC59F553E123320 /* ProductSearchViewController.swift in Sources */,
+				DB5CE0AD3F67F255E7FE4E28DB7AF41E /* ProductSearchViewModel.swift in Sources */,
+				5A8A00044BA48144D73F9D69C7F734E7 /* ProductSearch-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,11 +877,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEE26E6C59CC17E23B11752D738BA7A4 /* Sources */ = {
+		950A2999A0DCC79ECB044E87854D8A7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3062C3688497C58D6CE437958D877C8 /* Pods-Coolblue-CoolblueUITests-dummy.m in Sources */,
+				9D8D0967FE19393288E816FE7275DA02 /* ErrorModel.swift in Sources */,
+				331B0605EF7D7630C1108829A8EA0189 /* LogManager.swift in Sources */,
+				EA11538311F9CA222D83C9242C8932E1 /* Network-dummy.m in Sources */,
+				444CA42BF85045A96E5C86B136CB580A /* RequestModel.swift in Sources */,
+				05ED5029CFD8BDD6C688A1B430F32F93 /* ResponseModel.swift in Sources */,
+				66306C4482624E19437D023D5D55FFC9 /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -679,138 +898,104 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9D1E43333C23EA4B069F1B075FE73E5 /* Sources */ = {
+		C8C69693CC8537F347118663C3C53BA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B11F3ED4E7FF4F32B34B39082D0E7152 /* ErrorModel.swift in Sources */,
-				E0C6F68F2281EE83FBF8F0379BD8B0D7 /* LogManager.swift in Sources */,
-				45F672B35564F48A0239F09CD7117614 /* Network-dummy.m in Sources */,
-				C24FFBD111BDC07347BFB75DDDCE6157 /* RequestModel.swift in Sources */,
-				FC8F38DB3B8B6FF8C969DFF4B98BD55E /* ResponseModel.swift in Sources */,
-				EA672375FDBEC03EA9348B74CB6E032B /* ServiceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF819721A9EFCED89D4F5CD2A41AD141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A060CDA9AF6A05625003E2AE2DF580 /* Pods-Coolblue-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE7A6238CAB98DB68AF3D46A8F9BE28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD9854A57E668D939059AD2D2892FF6 /* Pods-Coolblue-CoolblueUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		002D7984D455DF358BC15E31A03C39A0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Core;
-			target = 045EA0CC8B1D13A2E99A2219A6EAFB1A /* Core */;
-			targetProxy = 332918B5F7428B6262207BD8B0EECABF /* PBXContainerItemProxy */;
-		};
-		681BB0E52CC1F7F152A5CE46F29667E8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Core;
-			target = 045EA0CC8B1D13A2E99A2219A6EAFB1A /* Core */;
-			targetProxy = 338FAD72A69CDB46FA638F2FF2CDA0FF /* PBXContainerItemProxy */;
-		};
-		C1035331E89543582BBDCE1E8C54051B /* PBXTargetDependency */ = {
+		00ED507CCCC3D28CC78C001FF56D8603 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Network;
 			target = 2FEDCED8796FFCA46764CDA8CBCC869C /* Network */;
-			targetProxy = 451C7C83A78E05DFA0A9C8F7FE5C3B12 /* PBXContainerItemProxy */;
+			targetProxy = 2E12F8155B27A0E47C1CE2CA9EDCB67C /* PBXContainerItemProxy */;
 		};
-		DB4343DC3F93A4CD6AA91BF2159210A2 /* PBXTargetDependency */ = {
+		6C9EA1E95A1D24B8970C62101A8A7577 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Core;
+			target = 045EA0CC8B1D13A2E99A2219A6EAFB1A /* Core */;
+			targetProxy = BB8932AA3E186614B27656511BA1BD66 /* PBXContainerItemProxy */;
+		};
+		809ADC0F92FB7096398C718EA38DE5D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ProductSearch-StoreSearch";
+			target = 7744DEA74262A4D624CDE590F84AF32A /* ProductSearch-StoreSearch */;
+			targetProxy = 87B982458EAC6E0CAED037711685420D /* PBXContainerItemProxy */;
+		};
+		84C6BDA613001806704E9AD799F7BD98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Core;
+			target = 045EA0CC8B1D13A2E99A2219A6EAFB1A /* Core */;
+			targetProxy = 15634F94A2FF9D24900AA8DBC7AD3DA7 /* PBXContainerItemProxy */;
+		};
+		89F7503EB0C7702DB16ED6548EEA78DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Coolblue";
 			target = C08B9A558C127362CF17A251C6F21D59 /* Pods-Coolblue */;
-			targetProxy = 240CB1145EFE24E9A525FC762D0559B3 /* PBXContainerItemProxy */;
+			targetProxy = A8A3A1303070185CE095BCDFE87757C3 /* PBXContainerItemProxy */;
 		};
-		EE75C64448D232956C6C5E81AE13E890 /* PBXTargetDependency */ = {
+		9A608ADC7096B3521F8DBCB82FDA18E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Network;
 			target = 2FEDCED8796FFCA46764CDA8CBCC869C /* Network */;
-			targetProxy = 716A65CBBEE7531E0670FD4ACB3EAED0 /* PBXContainerItemProxy */;
+			targetProxy = 21D46945135869A5DB030E9016604BE2 /* PBXContainerItemProxy */;
 		};
-		EEC0B740C29F29D12C85465278C56D7C /* PBXTargetDependency */ = {
+		B03CC80C02F120A7161EC5351DA6183C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ProductSearch;
+			target = 19F1E12ED76AA79A92C1A8A91F65EDE8 /* ProductSearch */;
+			targetProxy = 969A6E8E6AC6876596FEA612BD177577 /* PBXContainerItemProxy */;
+		};
+		B03D610A6D5FAB278BBB66D095CDB4FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Network;
+			target = 2FEDCED8796FFCA46764CDA8CBCC869C /* Network */;
+			targetProxy = 130991B4B9CCD2417D3DBEFA82B80008 /* PBXContainerItemProxy */;
+		};
+		BE59CC491BBE174161B9A4CE730AA416 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ProductSearch;
+			target = 19F1E12ED76AA79A92C1A8A91F65EDE8 /* ProductSearch */;
+			targetProxy = 3AFEF4FDEB5DB6E3F0E2369492356690 /* PBXContainerItemProxy */;
+		};
+		C069202F28C6CFBC6B30F86E88824127 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Core;
 			target = 045EA0CC8B1D13A2E99A2219A6EAFB1A /* Core */;
-			targetProxy = EB0A15582B862156A00AEDA49829038C /* PBXContainerItemProxy */;
+			targetProxy = 4EF6091D0DE14D61C92E6A210C0D8003 /* PBXContainerItemProxy */;
+		};
+		DB2F14C0695EC424677D491584E0C93E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Core;
+			target = 045EA0CC8B1D13A2E99A2219A6EAFB1A /* Core */;
+			targetProxy = 4D20D38FCEADB71EC2D774CD78C703F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		124A7CF89E8DD17576C79DF8AB8EBC50 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 177E40F760F51EF9E792207061F4FB05 /* Pods-Coolblue-CoolblueUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Coolblue-CoolblueUITests/Pods-Coolblue-CoolblueUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Coolblue-CoolblueUITests/Pods-Coolblue-CoolblueUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2ACF24A353B8BE198473934C88E2500E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABF1568D5FB0568927174F98FEC11291 /* Network.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Network/Network-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Network/Network-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Network/Network.modulemap";
-				PRODUCT_MODULE_NAME = Network;
-				PRODUCT_NAME = Network;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		406127025DF88589769A0F978A3392D4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 719F330D52BE14D5AC85BD675A975807 /* Core.release.xcconfig */;
+			baseConfigurationReference = 56F3868484CFDE7E5F9E0B6A8FC6B60A /* Core.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -844,7 +1029,131 @@
 			};
 			name = Release;
 		};
-		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+		43FE07B5D24F951AABBEC7247140261C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77413A247C54CE2E696FCDD966E417FD /* ProductSearch.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ProductSearch";
+				IBSC_MODULE = ProductSearch;
+				INFOPLIST_FILE = "Target Support Files/ProductSearch/ResourceBundle-StoreSearch-ProductSearch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = StoreSearch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4E8D73E25646990494C5F27BBF9F02CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9FDED1F14A9367A03FD10463FC4C733 /* Pods-Coolblue-CoolblueUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Coolblue-CoolblueUITests/Pods-Coolblue-CoolblueUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Coolblue-CoolblueUITests/Pods-Coolblue-CoolblueUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F41EA199597D4C48CBBE251B8735785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55A96CAA3DE31F396484DB58219E5EAC /* Network.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Network/Network-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Network/Network-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Network/Network.modulemap";
+				PRODUCT_MODULE_NAME = Network;
+				PRODUCT_NAME = Network;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7464C2D61AA79D8BC3D44BD025AA9C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 465F6E61217C1C1B1CE774936C268CE5 /* ProductSearch.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ProductSearch/ProductSearch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ProductSearch/ProductSearch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ProductSearch/ProductSearch.modulemap";
+				PRODUCT_MODULE_NAME = ProductSearch;
+				PRODUCT_NAME = ProductSearch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -897,7 +1206,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -910,120 +1219,7 @@
 			};
 			name = Debug;
 		};
-		45E2D78C791A8E8A2932540421D6D094 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90FBB916628EC7D1CE488279994BD6D7 /* Pods-Coolblue.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Coolblue/Pods-Coolblue-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Coolblue/Pods-Coolblue.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4871EAF594B07FFCE1F065DEBF6CCDD7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A3A5940A66B2B6CF1F3FA03C8521290 /* Pods-CoolblueTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CoolblueTests/Pods-CoolblueTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CoolblueTests/Pods-CoolblueTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5F4FE1E994978FBDC79A43F7C65F7BCF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFFC62F92013E19C8EC244A803ADDECC /* Pods-Coolblue.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Coolblue/Pods-Coolblue-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Coolblue/Pods-Coolblue.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1073,7 +1269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1085,9 +1281,158 @@
 			};
 			name = Release;
 		};
+		A3745387A7E905BE8864CB20219EB2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90FBB916628EC7D1CE488279994BD6D7 /* Pods-Coolblue.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Coolblue/Pods-Coolblue-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Coolblue/Pods-Coolblue.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB7D763D63F61DF14CE6C523666E485A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 177E40F760F51EF9E792207061F4FB05 /* Pods-Coolblue-CoolblueUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Coolblue-CoolblueUITests/Pods-Coolblue-CoolblueUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Coolblue-CoolblueUITests/Pods-Coolblue-CoolblueUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BBDECB1513CDB375B9EF0D956C149B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77413A247C54CE2E696FCDD966E417FD /* ProductSearch.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ProductSearch/ProductSearch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ProductSearch/ProductSearch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ProductSearch/ProductSearch.modulemap";
+				PRODUCT_MODULE_NAME = ProductSearch;
+				PRODUCT_NAME = ProductSearch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7CB901D778AF4A538D819F8027608F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB2041206B3A2541DD44BF7B87ED463A /* Pods-CoolblueTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoolblueTests/Pods-CoolblueTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoolblueTests/Pods-CoolblueTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D8AC6BA1F19E0441646B48004E78A733 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B592ECC8519546D918046B4CB17EAED8 /* Core.debug.xcconfig */;
+			baseConfigurationReference = DB2D977AA69688A69487D9BABFFD1F12 /* Core.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1120,9 +1465,9 @@
 			};
 			name = Debug;
 		};
-		DEFD9C1835B08ED67EEBCA3EDB44A43C /* Debug */ = {
+		E97D0D4E5361B6D31326D442041DB247 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB2041206B3A2541DD44BF7B87ED463A /* Pods-CoolblueTests.debug.xcconfig */;
+			baseConfigurationReference = EFFC62F92013E19C8EC244A803ADDECC /* Pods-Coolblue.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1134,16 +1479,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CoolblueTests/Pods-CoolblueTests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Coolblue/Pods-Coolblue-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CoolblueTests/Pods-CoolblueTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Coolblue/Pods-Coolblue.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1157,46 +1502,25 @@
 			};
 			name = Debug;
 		};
-		DF1A7B45E23E89C46845D5E5779969AA /* Debug */ = {
+		EA2B265C70ECE2C203D86224912E1136 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9FDED1F14A9367A03FD10463FC4C733 /* Pods-Coolblue-CoolblueUITests.debug.xcconfig */;
+			baseConfigurationReference = 465F6E61217C1C1B1CE774936C268CE5 /* ProductSearch.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Coolblue-CoolblueUITests/Pods-Coolblue-CoolblueUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Coolblue-CoolblueUITests/Pods-Coolblue-CoolblueUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ProductSearch";
+				IBSC_MODULE = ProductSearch;
+				INFOPLIST_FILE = "Target Support Files/ProductSearch/ResourceBundle-StoreSearch-ProductSearch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = StoreSearch;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		F7D892B042234BFA64758AD46CF7ECD0 /* Debug */ = {
+		EB01B0987E7C48ACBFDD731F8CD12636 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EB8ABC3D717F3DF4439A2AEB4E3F85E /* Network.debug.xcconfig */;
+			baseConfigurationReference = 086F9ECBBAF59D31D63119533DE23BD2 /* Network.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1229,23 +1553,79 @@
 			};
 			name = Debug;
 		};
+		F89C25F00B0E55F584EA2EB1BE5F2CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A3A5940A66B2B6CF1F3FA03C8521290 /* Pods-CoolblueTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoolblueTests/Pods-CoolblueTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoolblueTests/Pods-CoolblueTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		1640CC89BD610BA4A7EB10E5D43558FB /* Build configuration list for PBXNativeTarget "Pods-Coolblue-CoolblueUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4214E6946993DF02ED98D89047C64016 /* Debug */,
-				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+				4E8D73E25646990494C5F27BBF9F02CB /* Debug */,
+				AB7D763D63F61DF14CE6C523666E485A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EBE5249E663F930E7649B30ED1E3D3A /* Build configuration list for PBXNativeTarget "Pods-Coolblue-CoolblueUITests" */ = {
+		18BF4DF8DA8DCD1AF280AC0D0F8E24A6 /* Build configuration list for PBXNativeTarget "Network" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF1A7B45E23E89C46845D5E5779969AA /* Debug */,
-				124A7CF89E8DD17576C79DF8AB8EBC50 /* Release */,
+				EB01B0987E7C48ACBFDD731F8CD12636 /* Debug */,
+				5F41EA199597D4C48CBBE251B8735785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D979CA130A5EAE0D6D3DE132E9B5674 /* Build configuration list for PBXNativeTarget "Pods-Coolblue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97D0D4E5361B6D31326D442041DB247 /* Debug */,
+				A3745387A7E905BE8864CB20219EB2A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1259,29 +1639,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		80197F0B5B0C536809226B40552EBD04 /* Build configuration list for PBXNativeTarget "ProductSearch-StoreSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2B265C70ECE2C203D86224912E1136 /* Debug */,
+				43FE07B5D24F951AABBEC7247140261C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		873D90C837B5670DA2EB4FDC71E5E895 /* Build configuration list for PBXNativeTarget "Pods-CoolblueTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEFD9C1835B08ED67EEBCA3EDB44A43C /* Debug */,
-				4871EAF594B07FFCE1F065DEBF6CCDD7 /* Release */,
+				C7CB901D778AF4A538D819F8027608F7 /* Debug */,
+				F89C25F00B0E55F584EA2EB1BE5F2CB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9116A7CF9930A4E48D91C118A8B462AB /* Build configuration list for PBXNativeTarget "Pods-Coolblue" */ = {
+		A20069F7B568B3DAABDDE86B848D70B4 /* Build configuration list for PBXNativeTarget "ProductSearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F4FE1E994978FBDC79A43F7C65F7BCF /* Debug */,
-				45E2D78C791A8E8A2932540421D6D094 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D7A2258151A79DEC9FF0F5BD901F85F0 /* Build configuration list for PBXNativeTarget "Network" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F7D892B042234BFA64758AD46CF7ECD0 /* Debug */,
-				2ACF24A353B8BE198473934C88E2500E /* Release */,
+				7464C2D61AA79D8BC3D44BD025AA9C1E /* Debug */,
+				BBDECB1513CDB375B9EF0D956C149B6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

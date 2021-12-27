@@ -2,21 +2,28 @@ PODS:
   - Core (0.1.0)
   - Network (0.1.0):
     - Core
+  - ProductSearch (0.1.0):
+    - Core
+    - Network
 
 DEPENDENCIES:
   - Core (from `Modules/Core`)
   - Network (from `Modules/Network`)
+  - ProductSearch (from `Modules/ProductSearch`)
 
 EXTERNAL SOURCES:
   Core:
     :path: Modules/Core
   Network:
     :path: Modules/Network
+  ProductSearch:
+    :path: Modules/ProductSearch
 
 SPEC CHECKSUMS:
   Core: b4d49d33ea49694bc0bb003716776e3e238a9d1d
   Network: 1d8c5d3522c58dc66b14738e61eec2958301a555
+  ProductSearch: 098e93ab72f5bd51560484f6d6351cb25a1c952a
 
-PODFILE CHECKSUM: 358bef8d36bda50a288f090dfa62c99b51aba851
+PODFILE CHECKSUM: 9899c649bb5dcef0b3e18dc7e8fc4ca8f6f2edba
 
 COCOAPODS: 1.11.2

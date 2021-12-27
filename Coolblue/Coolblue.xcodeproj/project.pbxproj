@@ -11,8 +11,6 @@
 		2268CC489042A8269CB7A735 /* Pods_CoolblueTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89367482D82F4DD7474714A4 /* Pods_CoolblueTests.framework */; };
 		A4F04EC82779BD90003F2469 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F04EC72779BD90003F2469 /* AppDelegate.swift */; };
 		A4F04ECA2779BD90003F2469 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F04EC92779BD90003F2469 /* SceneDelegate.swift */; };
-		A4F04ECC2779BD90003F2469 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F04ECB2779BD90003F2469 /* ViewController.swift */; };
-		A4F04ECF2779BD90003F2469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F04ECD2779BD90003F2469 /* Main.storyboard */; };
 		A4F04ED12779BD92003F2469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F04ED02779BD92003F2469 /* Assets.xcassets */; };
 		A4F04ED42779BD92003F2469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F04ED22779BD92003F2469 /* LaunchScreen.storyboard */; };
 		A4F04EDF2779BD92003F2469 /* CoolblueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F04EDE2779BD92003F2469 /* CoolblueTests.swift */; };
@@ -47,8 +45,6 @@
 		A4F04EC42779BD90003F2469 /* Coolblue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coolblue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F04EC72779BD90003F2469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4F04EC92779BD90003F2469 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A4F04ECB2779BD90003F2469 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A4F04ECE2779BD90003F2469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4F04ED02779BD92003F2469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4F04ED32779BD92003F2469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4F04ED52779BD92003F2469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,7 +97,6 @@
 				DEFE987EA2FD87887F6A6245 /* Pods-CoolblueTests.debug.xcconfig */,
 				3BB329E13D95657927CFAC7E /* Pods-CoolblueTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -132,8 +127,6 @@
 			children = (
 				A4F04EC72779BD90003F2469 /* AppDelegate.swift */,
 				A4F04EC92779BD90003F2469 /* SceneDelegate.swift */,
-				A4F04ECB2779BD90003F2469 /* ViewController.swift */,
-				A4F04ECD2779BD90003F2469 /* Main.storyboard */,
 				A4F04ED02779BD92003F2469 /* Assets.xcassets */,
 				A4F04ED22779BD92003F2469 /* LaunchScreen.storyboard */,
 				A4F04ED52779BD92003F2469 /* Info.plist */,
@@ -279,7 +272,6 @@
 			files = (
 				A4F04ED42779BD92003F2469 /* LaunchScreen.storyboard in Resources */,
 				A4F04ED12779BD92003F2469 /* Assets.xcassets in Resources */,
-				A4F04ECF2779BD90003F2469 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,7 +399,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4F04ECC2779BD90003F2469 /* ViewController.swift in Sources */,
 				A4F04EC82779BD90003F2469 /* AppDelegate.swift in Sources */,
 				A4F04ECA2779BD90003F2469 /* SceneDelegate.swift in Sources */,
 			);
@@ -446,14 +437,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A4F04ECD2779BD90003F2469 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4F04ECE2779BD90003F2469 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A4F04ED22779BD92003F2469 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -594,9 +577,10 @@
 				INFOPLIST_FILE = Coolblue/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -606,7 +590,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -623,9 +607,10 @@
 				INFOPLIST_FILE = Coolblue/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -635,7 +620,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

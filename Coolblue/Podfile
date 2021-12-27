@@ -8,6 +8,7 @@ target 'Coolblue' do
   # Pods for Coolblue
   pod 'Core',         :path => 'Modules/Core'
   pod 'Network',      :path => 'Modules/Network'
+  pod 'ProductSearch',      :path => 'Modules/ProductSearch'
 
   target 'CoolblueTests' do
     inherit! :search_paths
