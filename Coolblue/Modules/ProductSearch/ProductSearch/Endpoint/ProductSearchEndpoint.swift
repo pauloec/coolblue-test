@@ -17,13 +17,29 @@ class ProductSearchEndpoint {
     class func searchProduct(query: String,
                              page: Int,
                              result: PublishBinder<Swift.Result<ProductSearchResponse, ErrorModel>>) {
-        ServiceManager.shared.sendRequest(request: ProductSearchRequest(), result: result)
+        ServiceManager.shared.sendRequest(request: ProductSearchRequest(query: query, page: page),
+                                          result: result)
     }
 }
 
 class ProductSearchRequest: RequestModel {
+    private var query: String
+    private var page: String
+
     override var path: String {
         return "/search"
+    }
+
+    override var parameters: [String : Any?] {
+        return [
+            "query": query,
+            "page": page
+        ]
+    }
+
+    init(query: String, page: Int) {
+        self.query = query
+        self.page = String(page)
     }
 }
 

@@ -44,9 +44,12 @@ extension RequestModel {
     func urlRequest() -> URLRequest {
         var endpoint: String = ServiceManager.shared.baseURL.appending(path)
 
-        for parameter in parameters {
-            if let value = parameter.value as? String {
-                endpoint.append("?\(parameter.key)=\(value)")
+        if !parameters.isEmpty {
+            endpoint.append("?")
+            for parameter in parameters {
+                if let value = parameter.value as? String {
+                    endpoint.append("\(parameter.key)=\(value)&")
+                }
             }
         }
 
@@ -58,9 +61,9 @@ extension RequestModel {
             request.addValue(header.value, forHTTPHeaderField: header.key)
         }
 
-        request.addValue("application/json", forHTTPHeaderField: "content-type")
-
         if method == RequestHTTPMethod.post {
+            request.addValue("application/json", forHTTPHeaderField: "content-type")
+
             do {
                 request.httpBody = try JSONSerialization.data(withJSONObject: body, options: JSONSerialization.WritingOptions.prettyPrinted)
             } catch let error {

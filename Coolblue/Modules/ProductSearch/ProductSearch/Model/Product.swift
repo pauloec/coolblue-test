@@ -12,7 +12,7 @@ struct Product: Codable {
     let USPs: [String]
     let availabilityState: Int
     let salesPriceIncVat: Double
-    let image: URL
+    let imageUrl: URL
     let nextDayDelivery: Bool
     let coolbluesChoiceInformationTitle: String?
     let promoIcon: PromoIcon?
@@ -22,7 +22,7 @@ struct Product: Codable {
     enum CodingKeys: String, CodingKey {
         case id = "productId"
         case name = "productName"
-        case image = "productImage"
+        case imageUrl = "productImage"
         case USPs = "USPs"
         case reviewInformation, availabilityState, salesPriceIncVat,
              coolbluesChoiceInformationTitle, promoIcon, nextDayDelivery,
@@ -52,10 +52,5 @@ struct ReviewSummary: Codable {
 
 struct PromoIcon: Codable {
     let text: String
-    let type: PromoType
-}
-
-enum PromoType: String, Codable {
-    case actionPrice = "action-price"
-    case coolbluesChoice = "coolblues-choice"
+    let type: String
 }

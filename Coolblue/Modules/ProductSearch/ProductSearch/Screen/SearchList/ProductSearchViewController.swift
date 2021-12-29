@@ -16,10 +16,18 @@ class ProductSearchViewController: UIViewController, ViewControllerProtocol {
             tableView.rowHeight = UITableView.automaticDimension
             tableView.estimatedRowHeight = 100
             tableView.dataSource = self
+            tableView.delegate = self
             tableView.translatesAutoresizingMaskIntoConstraints = false
             tableView.register(ProductCell.self, forCellReuseIdentifier: ProductCell.identifier)
         }
     }
+
+    private let loaderIndicator: UIActivityIndicatorView = {
+        let activityIndicator = UIActivityIndicatorView(style: .large)
+        activityIndicator.color = .systemBlue
+        return activityIndicator
+    }()
+
 
     typealias ViewModelProtocol = ProductSearchViewModel
     private var viewModel: ViewModelProtocol
@@ -71,6 +79,19 @@ class ProductSearchViewController: UIViewController, ViewControllerProtocol {
                 self?.tableView.reloadData()
             }
         })
+
+        output.showLoader.bind(listener: { [weak self] show in
+            guard let self = self else { return }
+            DispatchQueue.main.async {
+                if show {
+                    self.view.addSubview(self.loaderIndicator)
+                    self.loaderIndicator.center = self.view.center
+                    self.loaderIndicator.startAnimating()
+                } else {
+                    self.loaderIndicator.stopAnimating()
+                }
+            }
+        })
     }
 }
 
@@ -87,5 +108,14 @@ extension ProductSearchViewController: UITableViewDataSource {
         let viewModel = viewModel.output.products.value[indexPath.row]
         cell.bindViewModel(viewModel: viewModel)
         return cell
+    }
+}
+
+extension ProductSearchViewController: UITableViewDelegate {
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let isReachingEnd = scrollView.contentOffset.y >= 0 && scrollView.contentOffset.y >= (scrollView.contentSize.height - scrollView.frame.size.height)
+        if isReachingEnd {
+            viewModel.input.onScrollToBottom.onNext(Swift.Void())
+        }
     }
 }

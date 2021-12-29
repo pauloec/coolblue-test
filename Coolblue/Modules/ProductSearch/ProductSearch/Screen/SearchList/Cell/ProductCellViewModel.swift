@@ -26,7 +26,7 @@ class ProductCellViewModel: ViewModelProtocol {
     init(product: Product) {
         let nameBinder: RelayBinder<String> = .init(product.name)
         let reviewBinder: RelayBinder<String> = .init("★ \(product.reviewInformation.summary.average) / \(product.reviewInformation.summary.count) Reviews")
-        let imageUrlBinder: RelayBinder<URL> = .init(product.image)
+        let imageUrlBinder: RelayBinder<URL> = .init(product.imageUrl)
         let uspsBinder: RelayBinder<String> = .init("• " + product.USPs.joined(separator: "\n• "))
         let priceBinder: RelayBinder<String> = .init(String(format: "%.2f", product.salesPriceIncVat))
 
