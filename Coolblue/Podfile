@@ -6,8 +6,9 @@ target 'Coolblue' do
   use_frameworks!
 
   # Pods for Coolblue
-  pod 'Core',         :path => 'Modules/Core'
-  pod 'Network',      :path => 'Modules/Network'
+  pod 'Core',            :path => 'Modules/Core'
+  pod 'Network',         :path => 'Modules/Network'
+  pod 'ImageDownloader', :path => 'Modules/ImageDownloader'
   pod 'ProductSearch',      :path => 'Modules/ProductSearch'
 
   target 'CoolblueTests' do
