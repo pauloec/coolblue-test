@@ -11,10 +11,12 @@ import Core
 class ProductSearchViewController: UIViewController, ViewControllerProtocol {
     private var tableView: UITableView! {
         didSet {
+            tableView.backgroundColor = .white
             tableView.contentInsetAdjustmentBehavior = .never
             tableView.rowHeight = UITableView.automaticDimension
-            tableView.estimatedRowHeight = 120
+            tableView.estimatedRowHeight = 100
             tableView.dataSource = self
+            tableView.translatesAutoresizingMaskIntoConstraints = false
             tableView.register(ProductCell.self, forCellReuseIdentifier: ProductCell.identifier)
         }
     }
@@ -39,6 +41,7 @@ class ProductSearchViewController: UIViewController, ViewControllerProtocol {
     }
 
     func setupViews() {
+        view.backgroundColor = .white
         tableView = UITableView(frame: .zero, style: .plain)
 
         [tableView].forEach {
@@ -47,7 +50,7 @@ class ProductSearchViewController: UIViewController, ViewControllerProtocol {
 
         tableView.anchor(top: view.safeAreaLayoutGuide.topAnchor,
                          leading: view.leadingAnchor,
-                         bottom: view.bottomAnchor,
+                         bottom: view.safeAreaLayoutGuide.bottomAnchor,
                          trailing: view.trailingAnchor)
     }
 

@@ -18,4 +18,5 @@ Pod::Spec.new do |s|
 
   s.dependency 'Core'
   s.dependency 'Network'
+  s.dependency 'ImageDownloader'
 end

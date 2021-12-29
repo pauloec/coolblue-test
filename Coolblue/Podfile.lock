@@ -6,6 +6,7 @@ PODS:
     - Core
   - ProductSearch (0.1.0):
     - Core
+    - ImageDownloader
     - Network
 
 DEPENDENCIES:
@@ -28,7 +29,7 @@ SPEC CHECKSUMS:
   Core: b4d49d33ea49694bc0bb003716776e3e238a9d1d
   ImageDownloader: 93274e8dec9b1041e0761c2247a687a77d639858
   Network: 1d8c5d3522c58dc66b14738e61eec2958301a555
-  ProductSearch: 098e93ab72f5bd51560484f6d6351cb25a1c952a
+  ProductSearch: a066a6a1f3c58e1731c1c333659ebd2bfdeac4e7
 
 PODFILE CHECKSUM: 6e147d2cc885aed1654d3ef339bf070ddc5735ba
 

@@ -8,11 +8,16 @@
 import Core
 
 class ProductCellViewModel: ViewModelProtocol {
+    /// No input required for this project
     struct Input {
 
     }
     struct Output {
         let name: RelayBinder<String>
+        let review: RelayBinder<String>
+        let imageUrl: RelayBinder<URL>
+        let USPs: RelayBinder<String>
+        let price: RelayBinder<String>
     }
 
     let input: Input
@@ -20,8 +25,16 @@ class ProductCellViewModel: ViewModelProtocol {
 
     init(product: Product) {
         let nameBinder: RelayBinder<String> = .init(product.name)
+        let reviewBinder: RelayBinder<String> = .init("★ \(product.reviewInformation.summary.average) / \(product.reviewInformation.summary.count) Reviews")
+        let imageUrlBinder: RelayBinder<URL> = .init(product.image)
+        let uspsBinder: RelayBinder<String> = .init("• " + product.USPs.joined(separator: "\n• "))
+        let priceBinder: RelayBinder<String> = .init(String(format: "%.2f", product.salesPriceIncVat))
 
         input = Input()
-        output = Output(name: nameBinder)
+        output = Output(name: nameBinder,
+                        review: reviewBinder,
+                        imageUrl: imageUrlBinder,
+                        USPs: uspsBinder,
+                        price: priceBinder)
     }
 }
