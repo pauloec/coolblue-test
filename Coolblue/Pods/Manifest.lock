@@ -1,22 +1,28 @@
 PODS:
   - Core (0.1.0)
+  - ImageDownloader (0.1.0):
+    - Core
   - Network (0.1.0):
     - Core
 
 DEPENDENCIES:
   - Core (from `Modules/Core`)
+  - ImageDownloader (from `Modules/ImageDownloader`)
   - Network (from `Modules/Network`)
 
 EXTERNAL SOURCES:
   Core:
     :path: Modules/Core
+  ImageDownloader:
+    :path: Modules/ImageDownloader
   Network:
     :path: Modules/Network
 
 SPEC CHECKSUMS:
   Core: b4d49d33ea49694bc0bb003716776e3e238a9d1d
+  ImageDownloader: 93274e8dec9b1041e0761c2247a687a77d639858
   Network: 1d8c5d3522c58dc66b14738e61eec2958301a555
 
-PODFILE CHECKSUM: 358bef8d36bda50a288f090dfa62c99b51aba851
+PODFILE CHECKSUM: 2c12ae312e62b49f28b38edeb39f7a4c91b85076
 
 COCOAPODS: 1.11.2

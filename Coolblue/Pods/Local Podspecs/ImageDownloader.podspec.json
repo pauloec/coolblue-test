@@ -1,0 +1,29 @@
+{
+  "name": "ImageDownloader",
+  "version": "0.1.0",
+  "summary": "A short description of ImageDownloader.",
+  "description": "ImageDownloader module",
+  "homepage": "http://github.com/pauloec",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "paulo.ec@hotmail.com": "paulo.ec@hotmail.com"
+  },
+  "source": {
+    "git": "",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "ImageDownloader/**/*",
+  "dependencies": {
+    "Core": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}
