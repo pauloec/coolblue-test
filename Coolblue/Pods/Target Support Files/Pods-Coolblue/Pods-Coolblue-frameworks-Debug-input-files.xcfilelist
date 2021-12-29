@@ -2,3 +2,4 @@ ${PODS_ROOT}/Target Support Files/Pods-Coolblue/Pods-Coolblue-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Core/Core.framework
 ${BUILT_PRODUCTS_DIR}/ImageDownloader/ImageDownloader.framework
 ${BUILT_PRODUCTS_DIR}/Network/Network.framework
+${BUILT_PRODUCTS_DIR}/ProductSearch/ProductSearch.framework

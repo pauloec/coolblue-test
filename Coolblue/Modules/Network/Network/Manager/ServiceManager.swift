@@ -8,7 +8,7 @@
 import Foundation
 import Core
 
-class ServiceManager {
+public class ServiceManager {
     /// Singleton instance for services
     public static let shared: ServiceManager = ServiceManager()
 
@@ -22,7 +22,7 @@ extension ServiceManager {
     ///  - Parameters:
     ///   - Request: Model containing all basic information to reach the correct API
     ///   - Result: Publisher with Success response or Error response from API/Network
-    func sendRequest<T: Codable>(request: RequestModel,
+    public func sendRequest<T: Codable>(request: RequestModel,
                                  result: PublishBinder<Swift.Result<T, ErrorModel>>) {
         if request.isLoggingEnabled.request {
             LogManager.req(request)

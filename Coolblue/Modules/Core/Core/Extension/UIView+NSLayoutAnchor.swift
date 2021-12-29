@@ -8,7 +8,7 @@
 import UIKit
 
 extension UIView {
-    /// UIKit Autolayout Helper
+    /// Setup Autolayout Constraints
     ///
     /// - Parameters:
     ///   - top: Top anchor ** Defaults to nil **
@@ -99,6 +99,10 @@ extension UIView {
         anchor(top: superview?.safeAreaLayoutGuide.topAnchor,
                leading: superview?.safeAreaLayoutGuide.leadingAnchor,
                bottom: superview?.safeAreaLayoutGuide.bottomAnchor,
-               trailing: superview?.safeAreaLayoutGuide.trailingAnchor)
+               trailing: superview?.safeAreaLayoutGuide.trailingAnchor,
+               topPriority: .required,
+               bottomPriority: .required,
+               leadingPriority: .required,
+               trailingPriority: .required)
     }
 }

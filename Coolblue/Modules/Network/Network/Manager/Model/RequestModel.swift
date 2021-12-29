@@ -7,29 +7,35 @@
 
 import UIKit
 
-enum RequestHTTPMethod: String {
+public enum RequestHTTPMethod: String {
     case get = "GET"
     case post = "POST"
 }
 
-class RequestModel: NSObject {
-    var path: String {
+open class RequestModel {
+    public init() { }
+
+    open var path: String {
         return ""
     }
-    var parameters: [String: Any?] {
-        return [:]
-    }
-    var headers: [String: String] {
-        return [:]
-    }
-    var method: RequestHTTPMethod {
-        return body.isEmpty ? RequestHTTPMethod.get : RequestHTTPMethod.post
-    }
-    var body: [String: Any?] {
+
+    open var parameters: [String: Any?] {
         return [:]
     }
 
-    var isLoggingEnabled: (request: Bool, response: Bool) {
+    open var headers: [String: String] {
+        return [:]
+    }
+
+    open var method: RequestHTTPMethod {
+        return body.isEmpty ? RequestHTTPMethod.get : RequestHTTPMethod.post
+    }
+
+    open var body: [String: Any?] {
+        return [:]
+    }
+
+    open var isLoggingEnabled: (request: Bool, response: Bool) {
         return (request: true, response: true)
     }
 }
@@ -38,9 +44,12 @@ extension RequestModel {
     func urlRequest() -> URLRequest {
         var endpoint: String = ServiceManager.shared.baseURL.appending(path)
 
-        for parameter in parameters {
-            if let value = parameter.value as? String {
-                endpoint.append("?\(parameter.key)=\(value)")
+        if !parameters.isEmpty {
+            endpoint.append("?")
+            for parameter in parameters {
+                if let value = parameter.value as? String {
+                    endpoint.append("\(parameter.key)=\(value)&")
+                }
             }
         }
 
@@ -52,9 +61,9 @@ extension RequestModel {
             request.addValue(header.value, forHTTPHeaderField: header.key)
         }
 
-        request.addValue("application/json", forHTTPHeaderField: "content-type")
-
         if method == RequestHTTPMethod.post {
+            request.addValue("application/json", forHTTPHeaderField: "content-type")
+
             do {
                 request.httpBody = try JSONSerialization.data(withJSONObject: body, options: JSONSerialization.WritingOptions.prettyPrinted)
             } catch let error {

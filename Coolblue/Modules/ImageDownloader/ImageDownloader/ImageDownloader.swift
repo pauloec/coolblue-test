@@ -35,7 +35,7 @@ public final class ImageDownloader {
                 imageLoader.value = image
                 self.cache[url] = image
             }
-        }
+        }.resume()
 
         return imageLoader
     }
