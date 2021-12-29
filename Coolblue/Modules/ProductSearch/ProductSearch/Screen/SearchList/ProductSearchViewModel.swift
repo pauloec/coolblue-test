@@ -43,8 +43,6 @@ class ProductSearchViewModel: ViewModelProtocol {
                         error: errorBinder,
                         showLoader: showLoaderBinder)
         searchSetup()
-
-        onTapSearchBinder.onNext("text")
     }
 
     private func searchSetup() {

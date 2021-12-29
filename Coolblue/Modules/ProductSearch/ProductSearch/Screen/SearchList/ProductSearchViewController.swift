@@ -9,12 +9,20 @@ import UIKit
 import Core
 
 class ProductSearchViewController: UIViewController, ViewControllerProtocol {
+    private var searchBar: UISearchBar = {
+        let searchBar = UISearchBar()
+        searchBar.barStyle = .default
+        searchBar.isTranslucent = true
+        searchBar.placeholder = "I want..."
+        return searchBar
+    }()
+
     private var tableView: UITableView! {
         didSet {
             tableView.backgroundColor = .white
             tableView.contentInsetAdjustmentBehavior = .never
             tableView.rowHeight = UITableView.automaticDimension
-            tableView.estimatedRowHeight = 100
+            tableView.estimatedRowHeight = 120
             tableView.dataSource = self
             tableView.delegate = self
             tableView.translatesAutoresizingMaskIntoConstraints = false
@@ -48,8 +56,16 @@ class ProductSearchViewController: UIViewController, ViewControllerProtocol {
         bindViewModel()
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        searchBar.becomeFirstResponder()
+        super.viewDidAppear(animated)
+    }
+
     func setupViews() {
         view.backgroundColor = .white
+        navigationItem.titleView = searchBar
+        searchBar.delegate = self
+
         tableView = UITableView(frame: .zero, style: .plain)
 
         [tableView].forEach {
@@ -117,5 +133,12 @@ extension ProductSearchViewController: UITableViewDelegate {
         if isReachingEnd {
             viewModel.input.onScrollToBottom.onNext(Swift.Void())
         }
+    }
+}
+
+extension ProductSearchViewController: UISearchBarDelegate {
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        viewModel.input.onTapSearch.onNext(searchBar.text)
+        searchBar.resignFirstResponder()
     }
 }
