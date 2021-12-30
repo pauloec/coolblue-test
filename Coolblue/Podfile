@@ -1,11 +1,15 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+ platform :ios, '13.0'
 
 target 'Coolblue' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for Coolblue
+  pod 'Core',            :path => 'Modules/Core'
+  pod 'Network',         :path => 'Modules/Network'
+  pod 'ImageDownloader', :path => 'Modules/ImageDownloader'
+  pod 'ProductSearch',      :path => 'Modules/ProductSearch'
 
   target 'CoolblueTests' do
     inherit! :search_paths

@@ -11,11 +11,9 @@
 		2268CC489042A8269CB7A735 /* Pods_CoolblueTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89367482D82F4DD7474714A4 /* Pods_CoolblueTests.framework */; };
 		A4F04EC82779BD90003F2469 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F04EC72779BD90003F2469 /* AppDelegate.swift */; };
 		A4F04ECA2779BD90003F2469 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F04EC92779BD90003F2469 /* SceneDelegate.swift */; };
-		A4F04ECC2779BD90003F2469 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F04ECB2779BD90003F2469 /* ViewController.swift */; };
-		A4F04ECF2779BD90003F2469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F04ECD2779BD90003F2469 /* Main.storyboard */; };
 		A4F04ED12779BD92003F2469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F04ED02779BD92003F2469 /* Assets.xcassets */; };
 		A4F04ED42779BD92003F2469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F04ED22779BD92003F2469 /* LaunchScreen.storyboard */; };
-		A4F04EDF2779BD92003F2469 /* CoolblueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F04EDE2779BD92003F2469 /* CoolblueTests.swift */; };
+		A4F04EDF2779BD92003F2469 /* ProductFormatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F04EDE2779BD92003F2469 /* ProductFormatTests.swift */; };
 		A4F04EE92779BD92003F2469 /* CoolblueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F04EE82779BD92003F2469 /* CoolblueUITests.swift */; };
 		A4F04EEB2779BD92003F2469 /* CoolblueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F04EEA2779BD92003F2469 /* CoolblueUITestsLaunchTests.swift */; };
 		C49C4CECD8A33C54693CD4CB /* Pods_Coolblue_CoolblueUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8519BAF6B6760ED763489B /* Pods_Coolblue_CoolblueUITests.framework */; };
@@ -47,13 +45,11 @@
 		A4F04EC42779BD90003F2469 /* Coolblue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coolblue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F04EC72779BD90003F2469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4F04EC92779BD90003F2469 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A4F04ECB2779BD90003F2469 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A4F04ECE2779BD90003F2469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4F04ED02779BD92003F2469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4F04ED32779BD92003F2469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4F04ED52779BD92003F2469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4F04EDA2779BD92003F2469 /* CoolblueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolblueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4F04EDE2779BD92003F2469 /* CoolblueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolblueTests.swift; sourceTree = "<group>"; };
+		A4F04EDE2779BD92003F2469 /* ProductFormatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductFormatTests.swift; sourceTree = "<group>"; };
 		A4F04EE42779BD92003F2469 /* CoolblueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolblueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F04EE82779BD92003F2469 /* CoolblueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolblueUITests.swift; sourceTree = "<group>"; };
 		A4F04EEA2779BD92003F2469 /* CoolblueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolblueUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -101,7 +97,6 @@
 				DEFE987EA2FD87887F6A6245 /* Pods-CoolblueTests.debug.xcconfig */,
 				3BB329E13D95657927CFAC7E /* Pods-CoolblueTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -132,8 +127,6 @@
 			children = (
 				A4F04EC72779BD90003F2469 /* AppDelegate.swift */,
 				A4F04EC92779BD90003F2469 /* SceneDelegate.swift */,
-				A4F04ECB2779BD90003F2469 /* ViewController.swift */,
-				A4F04ECD2779BD90003F2469 /* Main.storyboard */,
 				A4F04ED02779BD92003F2469 /* Assets.xcassets */,
 				A4F04ED22779BD92003F2469 /* LaunchScreen.storyboard */,
 				A4F04ED52779BD92003F2469 /* Info.plist */,
@@ -144,7 +137,7 @@
 		A4F04EDD2779BD92003F2469 /* CoolblueTests */ = {
 			isa = PBXGroup;
 			children = (
-				A4F04EDE2779BD92003F2469 /* CoolblueTests.swift */,
+				A4F04EDE2779BD92003F2469 /* ProductFormatTests.swift */,
 			);
 			path = CoolblueTests;
 			sourceTree = "<group>";
@@ -179,6 +172,7 @@
 				A4F04EC02779BD90003F2469 /* Sources */,
 				A4F04EC12779BD90003F2469 /* Frameworks */,
 				A4F04EC22779BD90003F2469 /* Resources */,
+				F596695618AF993A1A047C6D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,6 +210,7 @@
 				A4F04EE02779BD92003F2469 /* Sources */,
 				A4F04EE12779BD92003F2469 /* Frameworks */,
 				A4F04EE22779BD92003F2469 /* Resources */,
+				98B0C4AEAC7744B254DC753A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -277,7 +272,6 @@
 			files = (
 				A4F04ED42779BD92003F2469 /* LaunchScreen.storyboard in Resources */,
 				A4F04ED12779BD92003F2469 /* Assets.xcassets in Resources */,
-				A4F04ECF2779BD90003F2469 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +314,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		98B0C4AEAC7744B254DC753A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coolblue-CoolblueUITests/Pods-Coolblue-CoolblueUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coolblue-CoolblueUITests/Pods-Coolblue-CoolblueUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Coolblue-CoolblueUITests/Pods-Coolblue-CoolblueUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		DB96302B3D8B9F893ABBC7C5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -340,6 +351,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F596695618AF993A1A047C6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coolblue/Pods-Coolblue-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coolblue/Pods-Coolblue-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Coolblue/Pods-Coolblue-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F5E1BA074DDA28034D9AF4DA /* [CP] Check Pods Manifest.lock */ = {
@@ -371,7 +399,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4F04ECC2779BD90003F2469 /* ViewController.swift in Sources */,
 				A4F04EC82779BD90003F2469 /* AppDelegate.swift in Sources */,
 				A4F04ECA2779BD90003F2469 /* SceneDelegate.swift in Sources */,
 			);
@@ -381,7 +408,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4F04EDF2779BD92003F2469 /* CoolblueTests.swift in Sources */,
+				A4F04EDF2779BD92003F2469 /* ProductFormatTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,14 +437,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A4F04ECD2779BD90003F2469 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4F04ECE2779BD90003F2469 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A4F04ED22779BD92003F2469 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -558,9 +577,10 @@
 				INFOPLIST_FILE = Coolblue/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -570,7 +590,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -587,9 +607,10 @@
 				INFOPLIST_FILE = Coolblue/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -599,7 +620,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

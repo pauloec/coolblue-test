@@ -1,3 +1,36 @@
-PODFILE CHECKSUM: 1f8d2ca62149e87706ca8abfa4082ed39ee7479c
+PODS:
+  - Core (0.1.0)
+  - ImageDownloader (0.1.0):
+    - Core
+  - Network (0.1.0):
+    - Core
+  - ProductSearch (0.1.0):
+    - Core
+    - ImageDownloader
+    - Network
+
+DEPENDENCIES:
+  - Core (from `Modules/Core`)
+  - ImageDownloader (from `Modules/ImageDownloader`)
+  - Network (from `Modules/Network`)
+  - ProductSearch (from `Modules/ProductSearch`)
+
+EXTERNAL SOURCES:
+  Core:
+    :path: Modules/Core
+  ImageDownloader:
+    :path: Modules/ImageDownloader
+  Network:
+    :path: Modules/Network
+  ProductSearch:
+    :path: Modules/ProductSearch
+
+SPEC CHECKSUMS:
+  Core: b4d49d33ea49694bc0bb003716776e3e238a9d1d
+  ImageDownloader: 93274e8dec9b1041e0761c2247a687a77d639858
+  Network: 1d8c5d3522c58dc66b14738e61eec2958301a555
+  ProductSearch: 29692214074be7bd6afb160abacad8d28a665829
+
+PODFILE CHECKSUM: 6e147d2cc885aed1654d3ef339bf070ddc5735ba
 
 COCOAPODS: 1.11.2

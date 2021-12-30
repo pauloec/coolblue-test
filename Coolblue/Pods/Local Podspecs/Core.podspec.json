@@ -1,0 +1,24 @@
+{
+  "name": "Core",
+  "version": "0.1.0",
+  "summary": "A short description of Core.",
+  "description": "Core module",
+  "homepage": "http://github.com/pauloec",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "paulo.ec@hotmail.com": "paulo.ec@hotmail.com"
+  },
+  "source": {
+    "git": "",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "Core/**/*",
+  "swift_version": "5.0"
+}
