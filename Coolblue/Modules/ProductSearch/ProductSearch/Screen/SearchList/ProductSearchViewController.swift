@@ -20,6 +20,7 @@ class ProductSearchViewController: UIViewController, ViewControllerProtocol {
     private var tableView: UITableView! {
         didSet {
             tableView.backgroundColor = .white
+            tableView.separatorStyle = .none
             tableView.contentInsetAdjustmentBehavior = .never
             tableView.rowHeight = UITableView.automaticDimension
             tableView.estimatedRowHeight = 120

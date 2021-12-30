@@ -66,6 +66,12 @@ class ProductCell: UITableViewCell, CellProtocol {
         return button
     }()
 
+    private let separator: UIView = {
+        let view = UIView()
+        view.backgroundColor = .gray
+        return view
+    }()
+
     typealias ViewModelProtocol = ProductCellViewModel
     private var viewModel: ViewModelProtocol?
     static var identifier: String = "productCell"
@@ -83,33 +89,43 @@ class ProductCell: UITableViewCell, CellProtocol {
     }
 
     func setupViews() {
-        [imageImageView, producStack].forEach {
+        [imageImageView, producStack, separator].forEach {
             contentView.addSubview($0)
         }
 
         imageImageView.anchor(top: producStack.topAnchor,
                               leading: contentView.leadingAnchor,
-                              size: .init(width: LayoutContraint.ImageView.width,
-                                          height: LayoutContraint.ImageView.height),
+                              size: .init(width: LayoutContraint.ImageView.Size.width,
+                                          height: LayoutContraint.ImageView.Size.height),
                               topPriority: .required,
                               leadingPriority: .required,
                               widthPriority: .init(LayoutContraint.ImageView.widthPriority),
                               heightPriority: .init(LayoutContraint.ImageView.heightPriority))
 
         producStack.anchor(top: contentView.topAnchor,
-                         leading: imageImageView.trailingAnchor,
-                         bottom: contentView.bottomAnchor,
-                         trailing: contentView.trailingAnchor,
-                         padding: .init(top: LayoutContraint.ProductStack.Padding.top,
-                                        left: LayoutContraint.ProductStack.Padding.left,
-                                        bottom: LayoutContraint.ProductStack.Padding.bottom,
-                                        right: LayoutContraint.ProductStack.Padding.right),
-                         leadingPriority: .required,
-                         trailingPriority: .required)
+                           leading: imageImageView.trailingAnchor,
+                           trailing: contentView.trailingAnchor,
+                           padding: .init(top: LayoutContraint.ProductStack.Padding.top,
+                                          left: LayoutContraint.ProductStack.Padding.left,
+                                          bottom: LayoutContraint.ProductStack.Padding.bottom,
+                                          right: LayoutContraint.ProductStack.Padding.right),
+                           leadingPriority: .required,
+                           trailingPriority: .required)
 
         [nameLabel, reviewLabel, USPsLabel, priceLabel, buyButton].forEach {
             producStack.addArrangedSubview($0)
         }
+
+        separator.anchor(top: producStack.bottomAnchor,
+                         leading: contentView.leadingAnchor,
+                         bottom: contentView.bottomAnchor,
+                         trailing: contentView.trailingAnchor,
+                         padding: .init(top: LayoutContraint.Separator.Padding.top,
+                                        left: LayoutContraint.Separator.Padding.left,
+                                        bottom: LayoutContraint.Separator.Padding.bottom,
+                                        right: LayoutContraint.Separator.Padding.right),
+                         size: .init(width: LayoutContraint.Separator.Size.width,
+                                     height: LayoutContraint.Separator.Size.height))
     }
 
     func bindViewModel(viewModel: ViewModelProtocol) {
@@ -153,8 +169,10 @@ class ProductCell: UITableViewCell, CellProtocol {
 extension ProductCell {
     struct LayoutContraint {
         struct ImageView {
-            static let height: CGFloat = 150
-            static let width: CGFloat = 150
+            struct Size {
+                static let height: CGFloat = 150
+                static let width: CGFloat = 150
+            }
             static let widthPriority: Float = 800
             static let heightPriority: Float = 800
         }
@@ -162,7 +180,19 @@ extension ProductCell {
             struct Padding {
                 static let top: CGFloat = 20
                 static let left: CGFloat = 20
-                static let bottom: CGFloat = 20
+                static let bottom: CGFloat = 0
+                static let right: CGFloat = 20
+            }
+        }
+        struct Separator {
+            struct Size {
+                static let width: CGFloat = 0
+                static let height: CGFloat = 0.5
+            }
+            struct Padding {
+                static let top: CGFloat = 20
+                static let left: CGFloat = 20
+                static let bottom: CGFloat = 0
                 static let right: CGFloat = 20
             }
         }

@@ -48,6 +48,7 @@ class ProductSearchViewModel: ViewModelProtocol {
     private func searchSetup() {
         searchResult.bind(listener: { [weak self] result in
             guard let self = self else { return }
+
             switch result {
             case .success(let response):
                 let viewModels = response.products.map {
@@ -60,11 +61,11 @@ class ProductSearchViewModel: ViewModelProtocol {
                 self.errorBinder.onNext(error.localizedDescription)
             }
 
-            self.setLoaderStatus(to: false)
+            self.setLoadingStatus(to: false)
         })
 
         onTapSearchBinder.bind(listener: { [weak self] text in
-            self?.setLoaderStatus(to: true)
+            self?.setLoadingStatus(to: true)
             self?.currentSearch = text
             self?.productsBinder.value = []
             self?.searchProduct(text: text, currentPage: 1)
@@ -74,18 +75,19 @@ class ProductSearchViewModel: ViewModelProtocol {
             guard let self = self,
                   self.isLoading == false,
                   self.currentPage < self.pageCount else { return }
+
             self.searchProduct(text: self.currentSearch,
                                currentPage: self.currentPage + 1)
         })
     }
 
-    private func setLoaderStatus(to loading: Bool) {
+    private func setLoadingStatus(to loading: Bool) {
         isLoading = loading
         showLoaderBinder.value = loading
     }
 
     private func searchProduct(text: String, currentPage: Int) {
-        setLoaderStatus(to: true)
+        setLoadingStatus(to: true)
         ProductSearchEndpoint.searchProduct(query: text,
                                             page: currentPage,
                                             result: searchResult)

@@ -8,10 +8,8 @@
 import Core
 
 class ProductCellViewModel: ViewModelProtocol {
-    /// No input required for this project
-    struct Input {
-
-    }
+    /// No input required for this cell
+    struct Input { }
     struct Output {
         let name: RelayBinder<String>
         let review: RelayBinder<String>
