@@ -14,6 +14,7 @@ class ProductCell: UITableViewCell, CellProtocol {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFit
         imageView.setContentHuggingPriority(.defaultLow, for: .horizontal)
+        imageView.image = UIImage.image(named: "product-placeholder")
         return imageView
     }()
 
@@ -138,6 +139,7 @@ class ProductCell: UITableViewCell, CellProtocol {
 
                 ImageDownloader.shared.loadImage(from: url)
                     .bind(listener: { image in
+                        guard image != nil else { return }
                         DispatchQueue.main.async {
                             self.imageImageView.image = image
                         }
