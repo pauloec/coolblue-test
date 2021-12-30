@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.0'
   s.source_files     = 'ProductSearch/**/*'
   s.resource_bundles = {
-    'StoreSearch' => ['Assets/**/*.{png,xcassets,json,txt,storyboard,xib,xcdatamodeld,strings}']
+    'ProductSearch' => ['Assets/**/*.{png,xcassets,json,txt,storyboard,xib,xcdatamodeld,strings}']
   }
 
   s.dependency 'Core'

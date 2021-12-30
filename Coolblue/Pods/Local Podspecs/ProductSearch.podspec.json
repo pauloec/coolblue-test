@@ -21,7 +21,7 @@
   "swift_versions": "5.0",
   "source_files": "ProductSearch/**/*",
   "resource_bundles": {
-    "StoreSearch": [
+    "ProductSearch": [
       "Assets/**/*.{png,xcassets,json,txt,storyboard,xib,xcdatamodeld,strings}"
     ]
   },
