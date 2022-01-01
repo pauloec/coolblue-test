@@ -24,9 +24,9 @@ Hello! My name is Paulo and this is my assignment to work with you guys! :)
 * MVVM-C
 * Modularity above all else!
 
-Architecture Diagram
-<img width="746" alt="Screen Shot 2565-01-01 at 16 48 25" src="https://user-images.githubusercontent.com/7059735/147848057-edc540fc-2340-4ba0-873b-661dd851c725.png">
+Architeture Module Diagram
 
+<img width="746" alt="Screen Shot 2565-01-01 at 16 48 25" src="https://user-images.githubusercontent.com/7059735/147848057-edc540fc-2340-4ba0-873b-661dd851c725.png">
 
 ## Time spent / Effort
 
