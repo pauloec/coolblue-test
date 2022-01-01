@@ -34,9 +34,9 @@ Hello! My name is Paulo and this is my assignment to work with you guys! :)
 * Add necessary framework modules and make custom changes to support this project ~ 30 mins
   * Actually all modules are creations of mine, i like to understand most used modules and re-build them myself, if you have any suggestion for improvements, please let me know!
 * Develop Product Search list page with all requirements ~ 3 hours
+  * Search
   * Paging
   * Image lazy loading
-  * Search
   * Loading state
   * Error state
 * Unit Testing ~ 15 mins (Low coverage...)
