@@ -31,9 +31,9 @@ Hello! My name is Paulo and this is my assignment to work with you guys! :)
 * Read assignment documentation ~ 10 mins
 * Design Architecture ~ 10 mins
 * UX/UI Wireframe ~ 10 mins (actually i just tried to make a poor version of Coolblue's app)
-* Add necessary framework modules and custom changes to support this project ~ 30 mins
+* Add necessary framework modules and make custom changes to support this project ~ 30 mins
   * Actually all modules are creations of mine, i like to understand most used modules and re-build them myself, if you have any suggestion for improvements, please let me know!
-* Code Product Search list with all requirements ~ 3 hours
+* Develop Product Search list page with all requirements ~ 3 hours
   * Paging
   * Image lazy loading
   * Search
